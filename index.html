@@ -1290,6 +1290,10 @@ function toggleAloudMic() {
 // ============================================================
 //  MOM MODE
 // ============================================================
+function initMomMode() {
+  resetMomMode();
+}
+
 function resetMomMode() {
   currentMomIdx=0; momTurn='buddy';
   document.getElementById('momSentence').textContent='Press Start to begin!';
