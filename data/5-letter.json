@@ -1,0 +1,25 @@
+{
+  "category": "5-letter",
+  "words": [
+    {"word": "brave", "tamil": "துணிச்சல்", "example": "Be brave and bold.", "emoji": "🦁", "blend": ["br", "ave"]},
+    {"word": "break", "tamil": "உடை", "example": "Don't break it.", "emoji": "💔", "blend": ["br", "eak"]},
+    {"word": "clown", "tamil": "கோமாளி", "example": "The clown laughs.", "emoji": "🤡", "blend": ["cl", "own"]},
+    {"word": "dress", "tamil": "உடை", "example": "Wear a dress.", "emoji": "👗", "blend": ["dr", "ess"]},
+    {"word": "flame", "tamil": "சிகை", "example": "A small flame.", "emoji": "🔥", "blend": ["fl", "ame"]},
+    {"word": "globe", "tamil": "உலகம்", "example": "Spin the globe.", "emoji": "🌍", "blend": ["gl", "obe"]},
+    {"word": "grape", "tamil": "திராட்சை", "example": "Sweet red grape.", "emoji": "🍇", "blend": ["gr", "ape"]},
+    {"word": "plant", "tamil": "தாவரம்", "example": "Water the plant.", "emoji": "🌱", "blend": ["pl", "ant"]},
+    {"word": "price", "tamil": "விலை", "example": "Good price!", "emoji": "🏷️", "blend": ["pr", "ice"]},
+    {"word": "shore", "tamil": "கரை", "example": "Walk on the shore.", "emoji": "🏖️", "blend": ["sh", "ore"]},
+    {"word": "shark", "tamil": "சுறா மீன்", "example": "A big shark swims.", "emoji": "🦈", "blend": ["sh", "ark"]},
+    {"word": "shine", "tamil": "ஒளி", "example": "Stars shine bright.", "emoji": "✨", "blend": ["sh", "ine"]},
+    {"word": "sleep", "tamil": "தூக்கம்", "example": "I sleep at night.", "emoji": "😴", "blend": ["sl", "eep"]},
+    {"word": "smile", "tamil": "புன்னகை", "example": "Give a smile.", "emoji": "😊", "blend": ["sm", "ile"]},
+    {"word": "snake", "tamil": "பாம்பு", "example": "A long snake.", "emoji": "🐍", "blend": ["sn", "ake"]},
+    {"word": "spell", "tamil": "எழுத்து", "example": "Can you spell it?", "emoji": "📝", "blend": ["sp", "ell"]},
+    {"word": "sweet", "tamil": "இனிப்பு", "example": "This is sweet!", "emoji": "🍬", "blend": ["sw", "eet"]},
+    {"word": "think", "tamil": "சிந்தி", "example": "Think before you speak.", "emoji": "🧠", "blend": ["th", "ink"]},
+    {"word": "three", "tamil": "மூன்று", "example": "I have three books.", "emoji": "📚", "blend": ["thr", "ee"]},
+    {"word": "trail", "tamil": "பாதை", "example": "Walk the trail.", "emoji": "🥾", "blend": ["tr", "ail"]}
+  ]
+}

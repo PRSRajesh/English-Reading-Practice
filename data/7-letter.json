@@ -1,0 +1,20 @@
+{
+  "category": "7-letter",
+  "words": [
+    {"word": "blanket", "tamil": "போர்வை", "example": "Wrap in a warm blanket.", "emoji": "🛏️", "blend": ["blan", "ket"]},
+    {"word": "chicken", "tamil": "கோழி", "example": "The chicken laid an egg.", "emoji": "🐔", "blend": ["chick", "en"]},
+    {"word": "cracker", "tamil": "பட்டாசு", "example": "A crispy cracker.", "emoji": "🎆", "blend": ["crack", "er"]},
+    {"word": "dolphin", "tamil": "டால்பின்", "example": "A dolphin leaps.", "emoji": "🐬", "blend": ["dol", "phin"]},
+    {"word": "excited", "tamil": "உற்சாகம்", "example": "I am so excited!", "emoji": "🎉", "blend": ["ex", "cited"]},
+    {"word": "feather", "tamil": "இறகு", "example": "A soft feather.", "emoji": "🪶", "blend": ["feath", "er"]},
+    {"word": "freezer", "tamil": "உறைவிப்பான்", "example": "Ice is in the freezer.", "emoji": "🧊", "blend": ["freez", "er"]},
+    {"word": "giraffe", "tamil": "ஒட்டகச்சிவிங்கி", "example": "A tall giraffe.", "emoji": "🦒", "blend": ["gi", "raffe"]},
+    {"word": "kitchen", "tamil": "சமையலறை", "example": "Cook in the kitchen.", "emoji": "🍳", "blend": ["kitch", "en"]},
+    {"word": "lantern", "tamil": "விளக்கு", "example": "Light the lantern.", "emoji": "🏮", "blend": ["lan", "tern"]},
+    {"word": "library", "tamil": "நூலகம்", "example": "I love the library.", "emoji": "📚", "blend": ["li", "brary"]},
+    {"word": "monster", "tamil": "அரக்கன்", "example": "A friendly monster.", "emoji": "👾", "blend": ["mon", "ster"]},
+    {"word": "noodles", "tamil": "நூடுல்ஸ்", "example": "Slurp the noodles.", "emoji": "🍜", "blend": ["noo", "dles"]},
+    {"word": "penguin", "tamil": "பென்குயின்", "example": "A penguin waddles.", "emoji": "🐧", "blend": ["pen", "guin"]},
+    {"word": "whistle", "tamil": "விசில்", "example": "Blow the whistle.", "emoji": "🎵", "blend": ["whis", "tle"]}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "category": "10-letter",
+  "words": [
+    {"word": "accomplish", "tamil": "சாதி", "example": "You can accomplish anything!", "emoji": "🏅", "blend": ["ac", "com", "plish"]},
+    {"word": "basketball", "tamil": "கூடைப்பந்து", "example": "Play basketball today.", "emoji": "🏀", "blend": ["bas", "ket", "ball"]},
+    {"word": "caterpillar", "tamil": "கம்பளிப்பூச்சி", "example": "The caterpillar crawls.", "emoji": "🐛", "blend": ["cat", "er", "pil", "lar"]},
+    {"word": "celebrated", "tamil": "கொண்டாடப்பட்ட", "example": "We celebrated today.", "emoji": "🎉", "blend": ["cel", "e", "brat", "ed"]},
+    {"word": "cloudberry", "tamil": "மேக பழம்", "example": "A rare cloudberry.", "emoji": "🫐", "blend": ["cloud", "ber", "ry"]},
+    {"word": "commanding", "tamil": "கட்டளையிடுதல்", "example": "A commanding voice.", "emoji": "📢", "blend": ["com", "mand", "ing"]},
+    {"word": "courageous", "tamil": "தைரியமான", "example": "Be courageous!", "emoji": "🦁", "blend": ["cour", "age", "ous"]},
+    {"word": "creativity", "tamil": "படைப்பாற்றல்", "example": "Use your creativity.", "emoji": "🎨", "blend": ["cre", "a", "tiv", "i", "ty"]},
+    {"word": "dedication", "tamil": "அர்ப்பணிப்பு", "example": "Show dedication.", "emoji": "💪", "blend": ["ded", "i", "ca", "tion"]},
+    {"word": "department", "tamil": "துறை", "example": "Visit the department.", "emoji": "🏢", "blend": ["de", "part", "ment"]},
+    {"word": "dictionary", "tamil": "அகராதி", "example": "Look in the dictionary.", "emoji": "📖", "blend": ["dic", "tion", "ar", "y"]},
+    {"word": "earthquake", "tamil": "நிலநடுக்கம்", "example": "A strong earthquake.", "emoji": "🌋", "blend": ["earth", "quake"]},
+    {"word": "friendship", "tamil": "நட்பு", "example": "True friendship lasts.", "emoji": "🤝", "blend": ["friend", "ship"]},
+    {"word": "mysterious", "tamil": "மர்மமான", "example": "A mysterious path.", "emoji": "🌙", "blend": ["mys", "te", "ri", "ous"]},
+    {"word": "strawberry", "tamil": "ஸ்ட்ராபெர்ரி", "example": "Sweet red strawberry.", "emoji": "🍓", "blend": ["straw", "ber", "ry"]}
+  ]
+}

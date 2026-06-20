@@ -1,0 +1,20 @@
+{
+  "category": "8-letter",
+  "words": [
+    {"word": "bathroom", "tamil": "குளியலறை", "example": "Brush teeth in the bathroom.", "emoji": "🚿", "blend": ["bath", "room"]},
+    {"word": "birthday", "tamil": "பிறந்தநாள்", "example": "Happy birthday to you!", "emoji": "🎂", "blend": ["birth", "day"]},
+    {"word": "bluebird", "tamil": "நீல குருவி", "example": "A bluebird sings.", "emoji": "🐦", "blend": ["blue", "bird"]},
+    {"word": "campfire", "tamil": "முகாம் நெருப்பு", "example": "Sit by the campfire.", "emoji": "🔥", "blend": ["camp", "fire"]},
+    {"word": "children", "tamil": "குழந்தைகள்", "example": "Children love to play.", "emoji": "👧👦", "blend": ["chil", "dren"]},
+    {"word": "cucumber", "tamil": "வெள்ளரிக்காய்", "example": "Eat a cool cucumber.", "emoji": "🥒", "blend": ["cu", "cum", "ber"]},
+    {"word": "dinosaur", "tamil": "டைனோசர்", "example": "A big dinosaur roars.", "emoji": "🦕", "blend": ["dino", "saur"]},
+    {"word": "elephant", "tamil": "யானை", "example": "An elephant trumpets.", "emoji": "🐘", "blend": ["ele", "phant"]},
+    {"word": "football", "tamil": "கால்பந்து", "example": "Kick the football!", "emoji": "⚽", "blend": ["foot", "ball"]},
+    {"word": "grateful", "tamil": "நன்றியுள்ள", "example": "I am grateful.", "emoji": "🙏", "blend": ["grate", "ful"]},
+    {"word": "handbook", "tamil": "கையேடு", "example": "Read the handbook.", "emoji": "📖", "blend": ["hand", "book"]},
+    {"word": "homework", "tamil": "வீட்டுப்பாடம்", "example": "Finish your homework.", "emoji": "📝", "blend": ["home", "work"]},
+    {"word": "keyboard", "tamil": "விசைப்பலகை", "example": "Type on the keyboard.", "emoji": "⌨️", "blend": ["key", "board"]},
+    {"word": "laughter", "tamil": "சிரிப்பு", "example": "Laughter is medicine.", "emoji": "😂", "blend": ["laugh", "ter"]},
+    {"word": "sandwich", "tamil": "சாண்ட்விச்", "example": "Eat a sandwich.", "emoji": "🥪", "blend": ["sand", "wich"]}
+  ]
+}

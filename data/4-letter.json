@@ -1,0 +1,25 @@
+{
+  "category": "4-letter",
+  "words": [
+    {"word": "blue", "tamil": "நீலம்", "example": "The sky is blue.", "emoji": "🌊", "blend": ["bl", "ue"]},
+    {"word": "clap", "tamil": "கைத்தட்டு", "example": "Clap your hands.", "emoji": "👏", "blend": ["cl", "ap"]},
+    {"word": "flag", "tamil": "கொடி", "example": "Wave the flag.", "emoji": "🚩", "blend": ["fl", "ag"]},
+    {"word": "frog", "tamil": "தவளை", "example": "A frog jumps.", "emoji": "🐸", "blend": ["fr", "og"]},
+    {"word": "grab", "tamil": "பிடி", "example": "Grab the rope.", "emoji": "🪢", "blend": ["gr", "ab"]},
+    {"word": "play", "tamil": "விளையாடு", "example": "Children play.", "emoji": "🎮", "blend": ["pl", "ay"]},
+    {"word": "ship", "tamil": "கப்பல்", "example": "The ship sails.", "emoji": "🚢", "blend": ["sh", "ip"]},
+    {"word": "shop", "tamil": "கடை", "example": "We go to shop.", "emoji": "🛒", "blend": ["sh", "op"]},
+    {"word": "that", "tamil": "அந்த", "example": "That is nice.", "emoji": "👆", "blend": ["th", "at"]},
+    {"word": "them", "tamil": "அவர்களை", "example": "Help them out.", "emoji": "🤝", "blend": ["th", "em"]},
+    {"word": "when", "tamil": "எப்போது", "example": "When do we go?", "emoji": "⏰", "blend": ["wh", "en"]},
+    {"word": "chip", "tamil": "சிப்ஸ்", "example": "Eat a chip.", "emoji": "🍟", "blend": ["ch", "ip"]},
+    {"word": "chat", "tamil": "பேசு", "example": "Let us chat.", "emoji": "💬", "blend": ["ch", "at"]},
+    {"word": "drum", "tamil": "டிரம்", "example": "Beat the drum.", "emoji": "🥁", "blend": ["dr", "um"]},
+    {"word": "trip", "tamil": "பயணம்", "example": "A fun trip.", "emoji": "🧳", "blend": ["tr", "ip"]},
+    {"word": "spot", "tamil": "புள்ளி", "example": "A red spot.", "emoji": "🔴", "blend": ["sp", "ot"]},
+    {"word": "spin", "tamil": "சுழல்", "example": "Tops spin fast.", "emoji": "🌀", "blend": ["sp", "in"]},
+    {"word": "snap", "tamil": "கொட்டு", "example": "Snap your fingers.", "emoji": "👌", "blend": ["sn", "ap"]},
+    {"word": "swim", "tamil": "நீச்சல்", "example": "Fish swim fast.", "emoji": "🐠", "blend": ["sw", "im"]},
+    {"word": "twin", "tamil": "இரட்டை", "example": "Twin babies!", "emoji": "👶👶", "blend": ["tw", "in"]}
+  ]
+}

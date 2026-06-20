@@ -1,0 +1,25 @@
+{
+  "category": "3-letter",
+  "words": [
+    {"word": "cat", "tamil": "பூனை", "example": "The cat sat.", "emoji": "🐱", "blend": ["c", "at"]},
+    {"word": "dog", "tamil": "நாய்", "example": "The dog ran.", "emoji": "🐕", "blend": ["d", "og"]},
+    {"word": "sun", "tamil": "சூரியன்", "example": "The sun shines.", "emoji": "☀️", "blend": ["s", "un"]},
+    {"word": "hat", "tamil": "தொப்பி", "example": "Wear the hat.", "emoji": "🎩", "blend": ["h", "at"]},
+    {"word": "bat", "tamil": "மட்டை", "example": "Hit with a bat.", "emoji": "🏏", "blend": ["b", "at"]},
+    {"word": "run", "tamil": "ஓடு", "example": "I can run fast.", "emoji": "🏃", "blend": ["r", "un"]},
+    {"word": "big", "tamil": "பெரிய", "example": "A big bear!", "emoji": "🐻", "blend": ["b", "ig"]},
+    {"word": "red", "tamil": "சிவப்பு", "example": "Red roses bloom.", "emoji": "🌹", "blend": ["r", "ed"]},
+    {"word": "cup", "tamil": "கோப்பை", "example": "A cup of tea.", "emoji": "☕", "blend": ["c", "up"]},
+    {"word": "fun", "tamil": "மகிழ்ச்சி", "example": "We have fun!", "emoji": "😄", "blend": ["f", "un"]},
+    {"word": "hen", "tamil": "கோழி", "example": "The hen clucks.", "emoji": "🐔", "blend": ["h", "en"]},
+    {"word": "hop", "tamil": "தாவு", "example": "Frogs hop.", "emoji": "🐸", "blend": ["h", "op"]},
+    {"word": "jet", "tamil": "விமானம்", "example": "The jet flies.", "emoji": "✈️", "blend": ["j", "et"]},
+    {"word": "kid", "tamil": "குழந்தை", "example": "The kid sings.", "emoji": "🧒", "blend": ["k", "id"]},
+    {"word": "lip", "tamil": "உதடு", "example": "Her lip curled.", "emoji": "💋", "blend": ["l", "ip"]},
+    {"word": "map", "tamil": "வரைபடம்", "example": "Read the map.", "emoji": "🗺️", "blend": ["m", "ap"]},
+    {"word": "net", "tamil": "வலை", "example": "Catch in a net.", "emoji": "🎣", "blend": ["n", "et"]},
+    {"word": "owl", "tamil": "ஆந்தை", "example": "The owl hoots.", "emoji": "🦉", "blend": ["ow", "l"]},
+    {"word": "pen", "tamil": "பேனா", "example": "Write with a pen.", "emoji": "🖊️", "blend": ["p", "en"]},
+    {"word": "box", "tamil": "பெட்டி", "example": "Open the box.", "emoji": "📦", "blend": ["b", "ox"]}
+  ]
+}

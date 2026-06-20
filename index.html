@@ -1,0 +1,1431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>RajMauli Kids Reading Practice ⭐</title>
+<style>
+  :root {
+    --sky: #4FC3F7;
+    --sun: #FFD600;
+    --grass: #66BB6A;
+    --rose: #FF5C8D;
+    --violet: #9C6FE4;
+    --peach: #FFA07A;
+    --mint: #40E0D0;
+    --cream: #FFFDE7;
+    --dark: #1A1A2E;
+    --card: #FFFFFF;
+    --shadow: rgba(0,0,0,0.12);
+    --radius: 20px;
+    --btn-radius: 50px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Segoe UI', 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(135deg, #E3F2FD 0%, #FCE4EC 50%, #F3E5F5 100%);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ========== SCREENS ========== */
+  .screen { display: none; min-height: 100vh; padding: 16px; }
+  .screen.active { display: flex; flex-direction: column; align-items: center; }
+
+  /* ========== WELCOME ========== */
+  #welcome {
+    justify-content: center;
+    background: linear-gradient(160deg, #0D47A1 0%, #1565C0 40%, #6A1B9A 100%);
+  }
+
+  .stars-bg {
+    position: fixed; top:0; left:0; width:100%; height:100%;
+    pointer-events:none; overflow:hidden; z-index:0;
+  }
+  .star {
+    position:absolute; background:#fff; border-radius:50%;
+    animation: twinkle 2s infinite alternate;
+  }
+  @keyframes twinkle { from{opacity:.2; transform:scale(1)} to{opacity:1; transform:scale(1.4)} }
+
+  .welcome-card {
+    position: relative; z-index:1;
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(12px);
+    border: 2px solid rgba(255,255,255,0.25);
+    border-radius: 28px;
+    padding: 32px 24px;
+    max-width: 480px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+  }
+
+  .app-logo { font-size: clamp(48px,10vw,80px); margin-bottom: 8px; }
+  .app-title {
+    font-size: clamp(24px,6vw,36px);
+    font-weight: 900;
+    color: #FFD600;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    letter-spacing: 1px;
+  }
+  .app-sub { color: rgba(255,255,255,0.85); font-size: clamp(13px,3.5vw,16px); margin: 8px 0 24px; }
+
+  .form-group { margin-bottom: 18px; text-align: left; }
+  .form-label { color: #FFD600; font-weight: 700; font-size: 14px; margin-bottom: 6px; display: block; }
+  .form-input {
+    width: 100%; padding: 14px 18px;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: var(--btn-radius);
+    background: rgba(255,255,255,0.15);
+    color: #fff; font-size: 16px;
+    outline: none; transition: border-color .2s;
+  }
+  .form-input::placeholder { color: rgba(255,255,255,0.5); }
+  .form-input:focus { border-color: #FFD600; }
+
+  .age-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 10px; }
+  .age-btn {
+    padding: 12px 6px; border-radius: 16px;
+    background: rgba(255,255,255,0.12);
+    border: 2px solid rgba(255,255,255,0.2);
+    color: #fff; cursor: pointer; font-size: 13px; font-weight: 700;
+    transition: all .2s;
+  }
+  .age-btn.selected, .age-btn:hover { background: var(--sun); color: var(--dark); border-color: var(--sun); transform: scale(1.05); }
+
+  .btn-primary {
+    width: 100%; padding: 16px;
+    background: linear-gradient(135deg, #FFD600, #FF8F00);
+    color: var(--dark); font-size: 18px; font-weight: 900;
+    border: none; border-radius: var(--btn-radius);
+    cursor: pointer; margin-top: 8px;
+    box-shadow: 0 6px 20px rgba(255,214,0,0.4);
+    transition: transform .2s, box-shadow .2s;
+  }
+  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(255,214,0,0.5); }
+  .btn-primary:active { transform: translateY(0); }
+
+  /* ========== HOME MENU ========== */
+  #home {
+    background: linear-gradient(160deg, #E3F2FD 0%, #FCE4EC 100%);
+    justify-content: flex-start; padding-top: 0;
+  }
+
+  .home-header {
+    width: 100%; max-width: 700px;
+    background: linear-gradient(135deg, #1565C0, #6A1B9A);
+    border-radius: 0 0 28px 28px;
+    padding: 20px 24px 24px;
+    text-align: center; color: #fff;
+    margin-bottom: 24px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  }
+  .greeting { font-size: clamp(20px,5vw,28px); font-weight: 900; color: var(--sun); }
+  .streak-bar {
+    display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .streak-item {
+    background: rgba(255,255,255,0.15); border-radius: 50px;
+    padding: 6px 14px; font-size: 13px; display: flex; align-items: center; gap: 4px;
+  }
+
+  .menu-grid {
+    width: 100%; max-width: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px; padding: 0 4px;
+  }
+
+  @media(min-width: 600px) {
+    .menu-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  .menu-card {
+    background: var(--card);
+    border-radius: var(--radius);
+    padding: 22px 14px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 16px var(--shadow);
+    transition: transform .2s, box-shadow .2s;
+    position: relative; overflow: hidden;
+    border: 3px solid transparent;
+    user-select: none;
+  }
+  .menu-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,0.18); }
+  .menu-card:active { transform: scale(0.97); }
+  .menu-card .card-icon { font-size: clamp(36px,8vw,52px); display: block; margin-bottom: 10px; }
+  .menu-card .card-label { font-size: clamp(12px,3vw,15px); font-weight: 800; color: var(--dark); }
+  .menu-card .card-desc { font-size: 11px; color: #888; margin-top: 4px; }
+
+  .menu-card.c1 { border-color: #FF5C8D; }
+  .menu-card.c2 { border-color: #9C6FE4; }
+  .menu-card.c3 { border-color: #4FC3F7; }
+  .menu-card.c4 { border-color: #66BB6A; }
+  .menu-card.c5 { border-color: #FFD600; }
+  .menu-card.c6 { border-color: #FFA07A; }
+  .menu-card.c7 { border-color: #40E0D0; }
+
+  /* ========== SECTION HEADER ========== */
+  .section-header {
+    width: 100%; max-width: 700px;
+    display: flex; align-items: center; gap: 14px;
+    margin-bottom: 20px;
+  }
+  .back-btn {
+    background: #fff; border: none; border-radius: 50%;
+    width: 44px; height: 44px; font-size: 22px;
+    cursor: pointer; box-shadow: 0 2px 8px var(--shadow);
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0; transition: transform .2s;
+  }
+  .back-btn:hover { transform: scale(1.1); }
+  .section-title { font-size: clamp(18px,5vw,24px); font-weight: 900; color: var(--dark); }
+
+  /* ========== WORD PRACTICE ========== */
+  #wordPractice { background: linear-gradient(135deg, #E8EAF6, #FCE4EC); }
+
+  .length-selector {
+    width: 100%; max-width: 700px;
+    display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px;
+  }
+  .len-btn {
+    padding: 8px 16px; border-radius: 50px;
+    background: #fff; border: 2px solid #ddd;
+    font-weight: 700; cursor: pointer; font-size: 14px;
+    transition: all .2s;
+  }
+  .len-btn.active { background: var(--violet); color: #fff; border-color: var(--violet); }
+
+  .word-card-area { width: 100%; max-width: 700px; }
+
+  .word-display {
+    background: #fff; border-radius: 24px;
+    padding: 32px 24px; text-align: center;
+    box-shadow: 0 8px 32px var(--shadow);
+    margin-bottom: 20px;
+  }
+  .word-emoji { font-size: clamp(56px,14vw,90px); margin-bottom: 12px; }
+  .word-text {
+    font-size: clamp(36px,9vw,64px);
+    font-weight: 900; color: var(--dark);
+    letter-spacing: 6px; margin-bottom: 8px;
+  }
+  .word-blend {
+    display: flex; justify-content: center; gap: 0; margin-bottom: 14px; flex-wrap: wrap;
+  }
+  .blend-part {
+    font-size: clamp(20px,5vw,32px); font-weight: 800;
+    padding: 4px 2px;
+  }
+  .blend-part:nth-child(odd) { color: var(--rose); }
+  .blend-part:nth-child(even) { color: var(--violet); }
+  .blend-dot { color: #ccc; font-size: 28px; align-self: center; }
+
+  .word-tamil { font-size: clamp(16px,4vw,22px); color: var(--violet); font-weight: 700; margin-bottom: 10px; }
+  .word-example { font-size: clamp(13px,3.5vw,17px); color: #555; font-style: italic; }
+
+  .word-nav { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .nav-btn {
+    padding: 12px 24px; border-radius: var(--btn-radius);
+    border: none; font-weight: 800; font-size: 15px;
+    cursor: pointer; transition: all .2s;
+  }
+  .nav-btn.prev { background: #eee; color: #555; }
+  .nav-btn.speak { background: linear-gradient(135deg, var(--sky), #0288D1); color: #fff; }
+  .nav-btn.next { background: linear-gradient(135deg, var(--grass), #2E7D32); color: #fff; }
+  .nav-btn:hover { transform: translateY(-2px); opacity: 0.9; }
+
+  .mic-area { margin-top: 20px; text-align: center; }
+  .mic-btn {
+    width: 80px; height: 80px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--rose), #AD1457);
+    border: none; font-size: 36px; cursor: pointer;
+    box-shadow: 0 6px 20px rgba(255,92,141,0.4);
+    transition: transform .2s, box-shadow .2s;
+    display: inline-flex; align-items: center; justify-content: center;
+  }
+  .mic-btn.listening {
+    animation: pulse-mic 0.8s infinite;
+    background: linear-gradient(135deg, #f44336, #B71C1C);
+  }
+  @keyframes pulse-mic {
+    0%,100%{transform:scale(1); box-shadow:0 6px 20px rgba(244,67,54,0.4);}
+    50%{transform:scale(1.12); box-shadow:0 10px 32px rgba(244,67,54,0.7);}
+  }
+  .mic-hint { font-size: 13px; color: #888; margin-top: 8px; }
+
+  .feedback-box {
+    margin-top: 16px; padding: 14px 20px;
+    border-radius: 16px; font-size: clamp(14px,4vw,18px);
+    font-weight: 700; text-align: center;
+    transition: all .3s;
+  }
+  .feedback-box.success { background: #E8F5E9; color: #2E7D32; border: 2px solid #A5D6A7; }
+  .feedback-box.retry { background: #FFF3E0; color: #E65100; border: 2px solid #FFCC80; }
+  .feedback-box.hidden { display: none; }
+
+  /* ========== LETTERS ========== */
+  #letterPractice { background: linear-gradient(135deg, #FFF9C4, #FCE4EC); }
+  .letter-grid {
+    width: 100%; max-width: 700px;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)); gap: 10px;
+  }
+  @media(min-width: 500px) { .letter-grid { grid-template-columns: repeat(auto-fill, minmax(72px,1fr)); } }
+
+  .letter-cell {
+    aspect-ratio: 1; border-radius: 16px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: clamp(22px,6vw,32px); font-weight: 900;
+    cursor: pointer; transition: all .2s;
+    color: #fff; box-shadow: 0 4px 12px var(--shadow);
+  }
+  .letter-cell:hover { transform: scale(1.08) rotate(-3deg); }
+  .letter-cell:active { transform: scale(0.95); }
+
+  /* ========== POEMS ========== */
+  #poems { background: linear-gradient(135deg, #E8F5E9, #E3F2FD); }
+  .poem-list { width: 100%; max-width: 700px; display: flex; flex-direction: column; gap: 14px; }
+  .poem-card {
+    background: #fff; border-radius: 20px; padding: 20px;
+    cursor: pointer; box-shadow: 0 4px 14px var(--shadow);
+    transition: transform .2s; border-left: 6px solid var(--grass);
+  }
+  .poem-card:hover { transform: translateX(6px); }
+  .poem-title { font-size: 18px; font-weight: 900; color: var(--dark); }
+  .poem-meta { font-size: 13px; color: #888; margin-top: 4px; }
+
+  .poem-view { width: 100%; max-width: 700px; }
+  .poem-view-card {
+    background: #fff; border-radius: 24px; padding: 28px 24px;
+    box-shadow: 0 8px 32px var(--shadow); margin-bottom: 16px;
+  }
+  .poem-line {
+    font-size: clamp(16px,4vw,22px); color: var(--dark);
+    padding: 10px 0; border-bottom: 1px dashed #eee;
+    cursor: pointer; transition: background .2s; border-radius: 8px;
+    padding-left: 8px;
+  }
+  .poem-line:last-child { border-bottom: none; }
+  .poem-line:hover { background: #F3E5F5; }
+  .poem-line.active { background: #E8F5E9; font-weight: 700; }
+
+  /* ========== STORIES ========== */
+  #stories { background: linear-gradient(135deg, #FFF3E0, #E8EAF6); }
+  .story-list { width: 100%; max-width: 700px; display: flex; flex-direction: column; gap: 14px; }
+  .story-card {
+    background: #fff; border-radius: 20px; padding: 18px 20px;
+    cursor: pointer; box-shadow: 0 4px 14px var(--shadow);
+    transition: transform .2s; display: flex; align-items: center; gap: 16px;
+    border-right: 6px solid var(--peach);
+  }
+  .story-card:hover { transform: translateX(-4px); }
+  .story-emoji { font-size: 40px; flex-shrink: 0; }
+  .story-info .story-name { font-size: 17px; font-weight: 800; color: var(--dark); }
+  .story-info .story-age { font-size: 12px; color: #999; margin-top: 2px; }
+
+  .story-view { width: 100%; max-width: 700px; }
+  .story-sentence {
+    background: #fff; border-radius: 18px; padding: 18px 22px;
+    font-size: clamp(16px,4.5vw,22px); color: var(--dark);
+    margin-bottom: 12px; box-shadow: 0 3px 10px var(--shadow);
+    cursor: pointer; transition: all .2s; line-height: 1.5;
+  }
+  .story-sentence:hover { background: #E8F5E9; }
+  .story-sentence.active { border-left: 5px solid var(--grass); padding-left: 18px; }
+
+  /* ========== READ ALOUD ========== */
+  #readAloud { background: linear-gradient(135deg, #FCE4EC, #E8EAF6); }
+  .aloud-card {
+    width: 100%; max-width: 700px;
+    background: #fff; border-radius: 24px; padding: 28px 24px;
+    box-shadow: 0 8px 32px var(--shadow); text-align: center;
+  }
+  .aloud-sentence {
+    font-size: clamp(20px,5.5vw,30px); font-weight: 700; color: var(--dark);
+    line-height: 1.5; margin: 20px 0;
+    min-height: 80px; display: flex; align-items: center; justify-content: center;
+  }
+  .wave-viz {
+    height: 60px; display: flex; align-items: center; justify-content: center; gap: 4px; margin: 12px 0;
+  }
+  .wave-bar {
+    width: 6px; background: var(--rose); border-radius: 3px; height: 8px;
+    transition: height .1s;
+  }
+  .wave-bar.active { animation: wave-anim .4s infinite alternate ease-in-out; }
+  @keyframes wave-anim {
+    from { height: 8px; } to { height: 44px; }
+  }
+  .wave-bar:nth-child(2) { animation-delay: .05s; }
+  .wave-bar:nth-child(3) { animation-delay: .1s; }
+  .wave-bar:nth-child(4) { animation-delay: .15s; }
+  .wave-bar:nth-child(5) { animation-delay: .2s; }
+  .wave-bar:nth-child(6) { animation-delay: .25s; }
+  .wave-bar:nth-child(7) { animation-delay: .3s; }
+
+  /* ========== PROGRESS ========== */
+  #progress { background: linear-gradient(135deg, #E8F5E9, #FFF9C4); }
+  .progress-area { width: 100%; max-width: 700px; }
+  .progress-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 20px; }
+  @media(min-width: 500px) { .progress-grid { grid-template-columns: repeat(3,1fr); } }
+
+  .stat-card {
+    background: #fff; border-radius: 20px; padding: 20px 14px;
+    text-align: center; box-shadow: 0 4px 14px var(--shadow);
+  }
+  .stat-icon { font-size: 36px; margin-bottom: 6px; }
+  .stat-num { font-size: clamp(24px,6vw,36px); font-weight: 900; color: var(--violet); }
+  .stat-label { font-size: 12px; color: #888; margin-top: 2px; }
+
+  .badges-section { margin-top: 8px; }
+  .badges-title { font-size: 16px; font-weight: 800; color: var(--dark); margin-bottom: 12px; }
+  .badges-grid { display: flex; flex-wrap: wrap; gap: 10px; }
+  .badge-item {
+    background: #fff; border-radius: 16px; padding: 12px 16px;
+    display: flex; align-items: center; gap: 10px;
+    box-shadow: 0 3px 10px var(--shadow);
+    opacity: 0.4; transition: opacity .2s;
+  }
+  .badge-item.earned { opacity: 1; }
+  .badge-icon { font-size: 28px; }
+  .badge-name { font-size: 13px; font-weight: 700; color: var(--dark); }
+
+  /* ========== PARENT DASHBOARD ========== */
+  #dashboard { background: linear-gradient(135deg, #E3F2FD, #E8EAF6); }
+  .dash-card {
+    width: 100%; max-width: 700px;
+    background: #fff; border-radius: 24px; padding: 24px;
+    box-shadow: 0 6px 24px var(--shadow); margin-bottom: 16px;
+  }
+  .dash-title { font-size: 18px; font-weight: 900; color: var(--dark); margin-bottom: 16px; padding-bottom: 10px; border-bottom: 2px solid #eee; }
+  .dash-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid #f5f5f5; }
+  .dash-row:last-child { border-bottom: none; }
+  .dash-key { color: #555; font-size: 14px; }
+  .dash-val { font-weight: 800; color: var(--violet); font-size: 16px; }
+
+  .reset-btn {
+    width: 100%; max-width: 700px;
+    padding: 14px; background: #ffebee; color: #c62828;
+    border: 2px solid #ef9a9a; border-radius: var(--btn-radius);
+    font-weight: 800; font-size: 15px; cursor: pointer;
+    transition: all .2s;
+  }
+  .reset-btn:hover { background: #c62828; color: #fff; }
+
+  /* ========== MOM MODE ========== */
+  #momMode {
+    background: linear-gradient(135deg, #F8BBD0, #E1BEE7);
+    justify-content: center;
+  }
+  .mom-card {
+    width: 100%; max-width: 680px;
+    background: rgba(255,255,255,0.9); border-radius: 28px;
+    padding: 28px 22px; box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+    text-align: center;
+  }
+  .mom-title { font-size: clamp(20px,5vw,28px); font-weight: 900; color: var(--rose); margin-bottom: 6px; }
+  .mom-subtitle { color: #888; font-size: 14px; margin-bottom: 24px; }
+  .turn-indicator {
+    padding: 12px 24px; border-radius: 50px; font-size: 16px; font-weight: 800;
+    margin-bottom: 20px; display: inline-block;
+  }
+  .turn-buddy { background: var(--violet); color: #fff; }
+  .turn-child { background: var(--rose); color: #fff; }
+  .mom-sentence {
+    font-size: clamp(20px,5.5vw,30px); font-weight: 700; color: var(--dark);
+    margin: 20px 0; line-height: 1.5; min-height: 80px;
+    display: flex; align-items: center; justify-content: center;
+  }
+
+  /* ========== TOAST ========== */
+  .toast {
+    position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(80px);
+    background: var(--dark); color: #fff; padding: 14px 28px;
+    border-radius: 50px; font-size: 15px; font-weight: 700;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25); z-index: 9999;
+    transition: transform .35s cubic-bezier(.34,1.56,.64,1);
+    white-space: nowrap;
+  }
+  .toast.show { transform: translateX(-50%) translateY(0); }
+
+  /* ========== CONFETTI ========== */
+  .confetti-piece {
+    position: fixed; width: 10px; height: 10px; border-radius: 2px;
+    z-index: 9998; pointer-events: none;
+    animation: confetti-fall 1.5s ease-in forwards;
+  }
+  @keyframes confetti-fall {
+    0%{transform:translateY(-20px) rotate(0deg); opacity:1;}
+    100%{transform:translateY(100vh) rotate(720deg); opacity:0;}
+  }
+
+  /* ========== MODAL ========== */
+  .modal-overlay {
+    display: none; position: fixed; inset:0;
+    background: rgba(0,0,0,0.5); z-index: 500;
+    align-items: center; justify-content: center; padding: 20px;
+  }
+  .modal-overlay.open { display: flex; }
+  .modal {
+    background: #fff; border-radius: 28px;
+    padding: 28px 24px; max-width: 440px; width: 100%;
+    text-align: center; box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+  }
+  .modal-icon { font-size: 64px; margin-bottom: 12px; }
+  .modal-title { font-size: 24px; font-weight: 900; color: var(--dark); margin-bottom: 8px; }
+  .modal-body { color: #666; font-size: 15px; margin-bottom: 22px; }
+  .modal-btn {
+    padding: 14px 32px; border-radius: var(--btn-radius);
+    border: none; font-size: 16px; font-weight: 800; cursor: pointer;
+    background: linear-gradient(135deg,var(--rose),#AD1457); color:#fff;
+    transition: transform .2s;
+  }
+  .modal-btn:hover { transform: scale(1.05); }
+
+  /* ========== SCROLLBAR ========== */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-thumb { background: #ccc; border-radius: 3px; }
+
+  /* ========== UTILITIES ========== */
+  .hidden { display: none !important; }
+  .mt16 { margin-top: 16px; }
+  .center { text-align: center; }
+  .loading { text-align:center; padding: 40px; color: #aaa; font-size: 16px; }
+</style>
+</head>
+<body>
+
+<!-- Stars background for welcome -->
+<div class="stars-bg" id="starsBg"></div>
+
+<!-- ============ WELCOME SCREEN ============ -->
+<div id="welcome" class="screen active">
+  <div class="welcome-card">
+    <div class="app-logo">📚</div>
+    <div class="app-title">RajMauli Reading</div>
+    <div class="app-sub">Fun reading practice for little stars! ⭐</div>
+
+    <div class="form-group">
+      <label class="form-label">👤 What's your name?</label>
+      <input type="text" id="childName" class="form-input" placeholder="Enter your name..." maxlength="30">
+    </div>
+
+    <div class="form-group">
+      <label class="form-label">🎂 How old are you?</label>
+      <div class="age-grid">
+        <button class="age-btn" data-age="3-5" onclick="selectAge(this)">3 – 5 years</button>
+        <button class="age-btn" data-age="6-8" onclick="selectAge(this)">6 – 8 years</button>
+        <button class="age-btn" data-age="9-12" onclick="selectAge(this)">9 – 12 years</button>
+      </div>
+    </div>
+
+    <button class="btn-primary" onclick="startApp()">🚀 Let's Read!</button>
+  </div>
+</div>
+
+<!-- ============ HOME MENU ============ -->
+<div id="home" class="screen">
+  <div class="home-header">
+    <div class="greeting" id="greetingText">Hello, Reader! 👋</div>
+    <div class="streak-bar">
+      <div class="streak-item" id="headerStars">⭐ 0 Stars</div>
+      <div class="streak-item" id="headerStreak">🔥 0 Days</div>
+      <div class="streak-item" id="headerWords">📚 0 Words</div>
+    </div>
+  </div>
+
+  <div class="menu-grid">
+    <div class="menu-card c1" onclick="showScreen('letterPractice')">
+      <span class="card-icon">🔤</span>
+      <div class="card-label">Letter Practice</div>
+      <div class="card-desc">A to Z sounds</div>
+    </div>
+    <div class="menu-card c2" onclick="showScreen('wordPractice')">
+      <span class="card-icon">🔢</span>
+      <div class="card-label">Word Practice</div>
+      <div class="card-desc">1–10 letter words</div>
+    </div>
+    <div class="menu-card c3" onclick="showScreen('stories')">
+      <span class="card-icon">📖</span>
+      <div class="card-label">Reading Stories</div>
+      <div class="card-desc">Short story passages</div>
+    </div>
+    <div class="menu-card c4" onclick="showScreen('poems')">
+      <span class="card-icon">🎵</span>
+      <div class="card-label">Blend Poems</div>
+      <div class="card-desc">Phonics & fluency</div>
+    </div>
+    <div class="menu-card c5" onclick="showScreen('readAloud')">
+      <span class="card-icon">🎤</span>
+      <div class="card-label">Read Aloud</div>
+      <div class="card-desc">Speak & practice</div>
+    </div>
+    <div class="menu-card c6" onclick="showScreen('progress')">
+      <span class="card-icon">⭐</span>
+      <div class="card-label">My Progress</div>
+      <div class="card-desc">Stars & badges</div>
+    </div>
+    <div class="menu-card c7" onclick="showScreen('momMode')">
+      <span class="card-icon">👩‍👧</span>
+      <div class="card-label">Practice with Mom</div>
+      <div class="card-desc">Interactive reading</div>
+    </div>
+    <div class="menu-card" style="border-color:#607D8B" onclick="showScreen('dashboard')">
+      <span class="card-icon">📊</span>
+      <div class="card-label">Parent Dashboard</div>
+      <div class="card-desc">Reports & settings</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ LETTER PRACTICE ============ -->
+<div id="letterPractice" class="screen">
+  <div class="section-header" style="max-width:700px;width:100%">
+    <button class="back-btn" onclick="showScreen('home')">←</button>
+    <div class="section-title">🔤 Letter Practice</div>
+  </div>
+  <div class="letter-grid" id="letterGrid"></div>
+</div>
+
+<!-- ============ WORD PRACTICE ============ -->
+<div id="wordPractice" class="screen">
+  <div class="section-header" style="max-width:700px;width:100%">
+    <button class="back-btn" onclick="showScreen('home')">←</button>
+    <div class="section-title">🔢 Word Practice</div>
+  </div>
+  <div class="length-selector" id="lengthSelector"></div>
+  <div class="word-card-area">
+    <div id="wordDisplay" class="loading">Loading words... 📚</div>
+    <div class="mic-area hidden" id="micArea">
+      <button class="mic-btn" id="micBtn" onclick="toggleMic()">🎤</button>
+      <div class="mic-hint" id="micHint">Tap to repeat the word</div>
+      <div class="feedback-box hidden" id="feedbackBox"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ POEMS ============ -->
+<div id="poems" class="screen">
+  <div class="section-header" style="max-width:700px;width:100%">
+    <button class="back-btn" id="poemsBackBtn" onclick="goBackPoems()">←</button>
+    <div class="section-title" id="poemsSectionTitle">🎵 Blend Poems</div>
+  </div>
+  <div id="poemListView" class="poem-list"></div>
+  <div id="poemDetailView" class="poem-view hidden"></div>
+</div>
+
+<!-- ============ STORIES ============ -->
+<div id="stories" class="screen">
+  <div class="section-header" style="max-width:700px;width:100%">
+    <button class="back-btn" id="storiesBackBtn" onclick="goBackStories()">←</button>
+    <div class="section-title" id="storiesSectionTitle">📖 Reading Stories</div>
+  </div>
+  <div id="storyListView" class="story-list"></div>
+  <div id="storyDetailView" class="story-view hidden"></div>
+</div>
+
+<!-- ============ READ ALOUD ============ -->
+<div id="readAloud" class="screen">
+  <div class="section-header" style="max-width:700px;width:100%">
+    <button class="back-btn" onclick="showScreen('home')">←</button>
+    <div class="section-title">🎤 Read Aloud Practice</div>
+  </div>
+  <div class="aloud-card" style="width:100%;max-width:700px">
+    <div style="font-size:14px;color:#888;margin-bottom:8px">Tap 🔊 to hear, then tap 🎤 to repeat!</div>
+    <div class="aloud-sentence" id="aloudSentence">Loading...</div>
+    <div class="wave-viz" id="waveViz">
+      <div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div>
+      <div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div>
+      <div class="wave-bar"></div>
+    </div>
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:12px">
+      <button class="nav-btn speak" onclick="speakAloud()">🔊 Listen</button>
+      <button class="mic-btn" id="aloudMicBtn" onclick="toggleAloudMic()" style="width:60px;height:60px;font-size:28px">🎤</button>
+      <button class="nav-btn next" onclick="nextAloudSentence()">Next ➡️</button>
+    </div>
+    <div class="feedback-box hidden mt16" id="aloudFeedback"></div>
+  </div>
+</div>
+
+<!-- ============ PROGRESS ============ -->
+<div id="progress" class="screen">
+  <div class="section-header" style="max-width:700px;width:100%">
+    <button class="back-btn" onclick="showScreen('home')">←</button>
+    <div class="section-title">⭐ My Progress</div>
+  </div>
+  <div class="progress-area">
+    <div class="progress-grid" id="progressGrid"></div>
+    <div class="badges-section">
+      <div class="badges-title">🏅 My Badges</div>
+      <div class="badges-grid" id="badgesGrid"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ MOM MODE ============ -->
+<div id="momMode" class="screen">
+  <div style="width:100%;max-width:700px;margin-bottom:16px">
+    <button class="back-btn" onclick="showScreen('home')">← Back</button>
+  </div>
+  <div class="mom-card">
+    <div class="mom-title">👩‍👧 Practice with Mom</div>
+    <div class="mom-subtitle">Reading Buddy reads first, then you repeat!</div>
+    <div class="turn-indicator" id="turnIndicator">👩 Reading Buddy's Turn</div>
+    <div class="mom-sentence" id="momSentence">Press Start to begin!</div>
+    <div class="feedback-box hidden mt16" id="momFeedback"></div>
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:20px">
+      <button class="nav-btn speak" id="momSpeakBtn" onclick="momSpeak()">🔊 Read Aloud</button>
+      <button class="mic-btn" id="momMicBtn" onclick="toggleMomMic()" style="width:60px;height:60px;font-size:26px;display:none">🎤</button>
+      <button class="nav-btn next" onclick="nextMomSentence()">Next ➡️</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ PARENT DASHBOARD ============ -->
+<div id="dashboard" class="screen">
+  <div class="section-header" style="max-width:700px;width:100%">
+    <button class="back-btn" onclick="showScreen('home')">←</button>
+    <div class="section-title">📊 Parent Dashboard</div>
+  </div>
+  <div class="dash-card" style="width:100%;max-width:700px">
+    <div class="dash-title">📈 Learning Report</div>
+    <div id="dashReport"></div>
+  </div>
+  <button class="reset-btn" onclick="resetProgress()">🗑️ Reset Progress (Keep Name &amp; Age)</button>
+</div>
+
+<!-- ============ FEEDBACK MODAL ============ -->
+<div class="modal-overlay" id="feedbackModal">
+  <div class="modal">
+    <div class="modal-icon" id="modalIcon">⭐</div>
+    <div class="modal-title" id="modalTitle">Excellent!</div>
+    <div class="modal-body" id="modalBody">Keep reading, superstar!</div>
+    <button class="modal-btn" onclick="closeModal()">Continue 🚀</button>
+  </div>
+</div>
+
+<!-- ============ TOAST ============ -->
+<div class="toast" id="toast"></div>
+
+<script>
+// ============================================================
+//  STATE & CONSTANTS
+// ============================================================
+let appData = {
+  name: '', age: '',
+  stars: 0, words: 0, poems: 0, stories: 0, aloud: 0, streak: 0,
+  lastDate: '', badges: [], favWords: []
+};
+
+const BADGE_DEFS = [
+  {id:'first_word', icon:'🌟', name:'First Word', req: d=>d.words>=1},
+  {id:'word10', icon:'📚', name:'10 Words', req: d=>d.words>=10},
+  {id:'word50', icon:'📖', name:'50 Words', req: d=>d.words>=50},
+  {id:'poem1', icon:'🎵', name:'First Poem', req: d=>d.poems>=1},
+  {id:'story1', icon:'📕', name:'First Story', req: d=>d.stories>=1},
+  {id:'aloud5', icon:'🎤', name:'5 Read Alouds', req: d=>d.aloud>=5},
+  {id:'star10', icon:'⭐', name:'10 Stars', req: d=>d.stars>=10},
+  {id:'star50', icon:'🌠', name:'50 Stars', req: d=>d.stars>=50},
+  {id:'streak3', icon:'🔥', name:'3-Day Streak', req: d=>d.streak>=3},
+  {id:'aloud20', icon:'🏆', name:'Reading Champ', req: d=>d.aloud>=20},
+];
+
+const LETTER_COLORS = ['#FF5C8D','#9C6FE4','#4FC3F7','#66BB6A','#FFD600','#FFA07A','#40E0D0','#E91E63','#3F51B5','#009688'];
+
+const ALOUD_SENTENCES = [
+  "The sun shines bright today.",
+  "A little bird sings on the tree.",
+  "Frogs jump into the blue pond.",
+  "I love to read books every day.",
+  "The butterfly flutters in the garden.",
+  "Rain drops fall on the green leaves.",
+  "My cat chases the red ball.",
+  "Stars twinkle in the dark night sky.",
+  "We plant seeds and water them every day.",
+  "The brave lion roars across the land.",
+  "Children laugh and play at the park.",
+  "A ship sails across the wide ocean.",
+  "The dragon breathes fire in the story.",
+  "Friends share and care for each other.",
+  "I brush my teeth twice every day.",
+];
+
+const MOM_SENTENCES = [
+  "The blue bird flies high in the sky.",
+  "Let us read a fun story today.",
+  "I can see a big, bright rainbow.",
+  "The cat sat on the red mat.",
+  "Spring brings flowers and warm sunshine.",
+  "Books take us on amazing adventures.",
+  "A friendly dragon lives in the castle.",
+  "We love to learn something new each day.",
+  "The stars shine like tiny silver lamps.",
+  "Practice makes perfect — keep reading!"
+];
+
+let currentWordList = [];
+let currentWordIndex = 0;
+let currentWordLength = 3;
+let synth = window.speechSynthesis;
+let recognition = null;
+let isListening = false;
+let currentAloudIdx = 0;
+let currentMomIdx = 0;
+let momTurn = 'buddy'; // 'buddy' | 'child'
+let poemsData = [], storiesData = [];
+let currentPoemId = null, currentStoryId = null;
+
+// ============================================================
+//  INIT
+// ============================================================
+window.onload = () => {
+  generateStars();
+  loadData();
+  if(appData.name && appData.age) {
+    initApp();
+  }
+  checkStreak();
+};
+
+function generateStars() {
+  const bg = document.getElementById('starsBg');
+  for(let i=0;i<60;i++){
+    const s=document.createElement('div');
+    s.className='star';
+    const sz=Math.random()*3+1;
+    s.style.cssText=`width:${sz}px;height:${sz}px;top:${Math.random()*100}%;left:${Math.random()*100}%;animation-delay:${Math.random()*2}s;animation-duration:${1+Math.random()*2}s`;
+    bg.appendChild(s);
+  }
+}
+
+function loadData() {
+  const saved = localStorage.getItem('rajmauliData');
+  if(saved) appData = {...appData, ...JSON.parse(saved)};
+}
+
+function saveData() {
+  localStorage.setItem('rajmauliData', JSON.stringify(appData));
+  checkBadges();
+  updateHeader();
+}
+
+function checkStreak() {
+  const today = new Date().toDateString();
+  if(appData.lastDate && appData.lastDate !== today) {
+    const last = new Date(appData.lastDate);
+    const diff = (new Date()-last)/(1000*60*60*24);
+    if(diff > 1.5) appData.streak = 0;
+    else appData.streak++;
+  } else if(!appData.lastDate) {
+    appData.streak = 0;
+  }
+  appData.lastDate = today;
+  saveData();
+}
+
+function checkBadges() {
+  BADGE_DEFS.forEach(b=>{
+    if(!appData.badges.includes(b.id) && b.req(appData)){
+      appData.badges.push(b.id);
+      showToast(`🏅 Badge Earned: ${b.name}!`);
+    }
+  });
+}
+
+// ============================================================
+//  WELCOME
+// ============================================================
+function selectAge(el) {
+  document.querySelectorAll('.age-btn').forEach(b=>b.classList.remove('selected'));
+  el.classList.add('selected');
+  appData.age = el.dataset.age;
+}
+
+function startApp() {
+  const nameInput = document.getElementById('childName').value.trim();
+  if(!nameInput) { showToast('Please enter your name! 👤'); return; }
+  if(!appData.age) { showToast('Please choose your age group! 🎂'); return; }
+  appData.name = nameInput;
+  saveData();
+  initApp();
+}
+
+function initApp() {
+  updateHeader();
+  buildLetterGrid();
+  loadPoems();
+  loadStories();
+  initAloud();
+  initMomMode();
+  showScreen('home');
+}
+
+function updateHeader() {
+  document.getElementById('greetingText').textContent = `Hello, ${appData.name}! 👋`;
+  document.getElementById('headerStars').textContent = `⭐ ${appData.stars} Stars`;
+  document.getElementById('headerStreak').textContent = `🔥 ${appData.streak} Day${appData.streak!==1?'s':''}`;
+  document.getElementById('headerWords').textContent = `📚 ${appData.words} Words`;
+}
+
+// ============================================================
+//  SCREEN NAVIGATION
+// ============================================================
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s=>{
+    s.classList.remove('active');
+  });
+  document.getElementById(id).classList.add('active');
+  document.getElementById('starsBg').style.display = (id==='welcome') ? 'block' : 'none';
+
+  if(id==='progress') renderProgress();
+  if(id==='dashboard') renderDashboard();
+  if(id==='wordPractice') initWordPractice();
+  if(id==='momMode') resetMomMode();
+}
+
+// ============================================================
+//  LETTER PRACTICE
+// ============================================================
+function buildLetterGrid() {
+  const grid = document.getElementById('letterGrid');
+  grid.innerHTML = '';
+  'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').forEach((l,i)=>{
+    const div = document.createElement('div');
+    div.className = 'letter-cell';
+    div.textContent = l;
+    div.style.background = `linear-gradient(135deg, ${LETTER_COLORS[i%10]}, ${LETTER_COLORS[(i+3)%10]})`;
+    div.onclick = () => speakLetter(l);
+    grid.appendChild(div);
+  });
+}
+
+function speakLetter(l) {
+  speak(l + '... ' + l + ' says ' + l.toLowerCase());
+  appData.stars++;
+  saveData();
+  showToast(`🔤 ${l} — great!`);
+}
+
+// ============================================================
+//  WORD PRACTICE
+// ============================================================
+async function initWordPractice() {
+  // Build length buttons
+  const sel = document.getElementById('lengthSelector');
+  sel.innerHTML = '';
+  for(let i=1;i<=10;i++){
+    const b=document.createElement('button');
+    b.className='len-btn'+(i===currentWordLength?' active':'');
+    b.textContent=i+'-letter';
+    b.onclick=()=>loadWordLength(i);
+    sel.appendChild(b);
+  }
+  await loadWordLength(currentWordLength);
+}
+
+async function loadWordLength(n) {
+  currentWordLength = n;
+  document.querySelectorAll('.len-btn').forEach((b,i)=>{
+    b.classList.toggle('active', i+1===n);
+  });
+  document.getElementById('wordDisplay').className='loading';
+  document.getElementById('wordDisplay').innerHTML='Loading words... 📚';
+  document.getElementById('micArea').classList.add('hidden');
+  try {
+    const res = await fetch(`data/${n}-letter.json`);
+    const data = await res.json();
+    currentWordList = data.words;
+    currentWordIndex = 0;
+    renderWord();
+  } catch(e) {
+    document.getElementById('wordDisplay').innerHTML='<div style="padding:20px;text-align:center">Could not load words. Please make sure JSON files are in the data/ folder.</div>';
+  }
+}
+
+function renderWord() {
+  if(!currentWordList.length) return;
+  const w = currentWordList[currentWordIndex];
+  const blendHtml = w.blend
+    ? w.blend.map((p,i)=>`<span class="blend-part">${p}</span>${i<w.blend.length-1?'<span class="blend-dot">·</span>':''}`).join('')
+    : `<span class="blend-part">${w.word}</span>`;
+
+  document.getElementById('wordDisplay').className='word-display';
+  document.getElementById('wordDisplay').innerHTML=`
+    <div class="word-emoji">${w.emoji||'📝'}</div>
+    <div class="word-text">${w.word}</div>
+    <div class="word-blend">${blendHtml}</div>
+    <div class="word-tamil">🇮🇳 ${w.tamil}</div>
+    <div class="word-example">"${w.example}"</div>
+    <div class="word-nav">
+      <button class="nav-btn prev" onclick="prevWord()">← Prev</button>
+      <button class="nav-btn speak" onclick="speakCurrentWord()">🔊 Hear</button>
+      <button class="nav-btn next" onclick="nextWord()">Next →</button>
+    </div>
+  `;
+  document.getElementById('micArea').classList.remove('hidden');
+  hideFeedback();
+}
+
+function speakCurrentWord() {
+  if(!currentWordList.length) return;
+  const w = currentWordList[currentWordIndex];
+  speak(w.word);
+}
+
+function prevWord() {
+  if(currentWordIndex>0) { currentWordIndex--; renderWord(); }
+  else showToast('You are at the first word!');
+}
+
+function nextWord() {
+  if(currentWordIndex < currentWordList.length-1) {
+    currentWordIndex++;
+    renderWord();
+    appData.words++;
+    appData.stars++;
+    saveData();
+  } else {
+    showToast('🎉 You finished all words in this set!');
+    confetti();
+  }
+}
+
+// ============================================================
+//  SPEECH SYNTHESIS
+// ============================================================
+function speak(text, onEnd) {
+  if(!synth) return;
+  synth.cancel();
+  const utt = new SpeechSynthesisUtterance(text);
+  utt.rate = 0.85;
+  utt.pitch = 1.1;
+  // Prefer female voice
+  const voices = synth.getVoices();
+  const female = voices.find(v=>/female|samantha|zira|karen|victoria|moira|fiona/i.test(v.name))
+    || voices.find(v=>v.lang==='en-US' && !v.name.toLowerCase().includes('male'))
+    || voices[0];
+  if(female) utt.voice = female;
+  if(onEnd) utt.onend = onEnd;
+  synth.speak(utt);
+}
+
+// ============================================================
+//  SPEECH RECOGNITION
+// ============================================================
+function initRecognition() {
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if(!SR) { showToast('Speech recognition not supported in this browser.'); return null; }
+  const r = new SR();
+  r.continuous = false;
+  r.interimResults = false;
+  r.lang = 'en-US';
+  return r;
+}
+
+function toggleMic() {
+  if(isListening) { stopListening(); return; }
+  const target = currentWordList[currentWordIndex]?.word || '';
+  startListening('micBtn','micHint','feedbackBox', target, ()=>{
+    appData.aloud++;
+    appData.stars+=2;
+    saveData();
+  });
+}
+
+function startListening(btnId, hintId, fbId, target, onSuccess) {
+  if(isListening) return;
+  recognition = initRecognition();
+  if(!recognition) return;
+  isListening = true;
+  document.getElementById(btnId).classList.add('listening');
+  if(hintId) document.getElementById(hintId).textContent = '🔴 Listening...';
+  hideFeedbackById(fbId);
+
+  recognition.onresult = (e) => {
+    const said = e.results[0][0].transcript.trim().toLowerCase();
+    isListening = false;
+    document.getElementById(btnId).classList.remove('listening');
+    if(hintId) document.getElementById(hintId).textContent = 'Tap to repeat the word';
+    evaluateSpeech(said, target, fbId, onSuccess);
+  };
+  recognition.onerror = () => {
+    isListening = false;
+    document.getElementById(btnId).classList.remove('listening');
+    if(hintId) document.getElementById(hintId).textContent = 'Tap to try again';
+    showFeedback(fbId, "😅 Couldn't hear you. Try again!", 'retry');
+  };
+  recognition.onend = () => {
+    isListening = false;
+    document.getElementById(btnId).classList.remove('listening');
+  };
+  recognition.start();
+}
+
+function stopListening() {
+  if(recognition) { recognition.stop(); }
+  isListening = false;
+  document.querySelectorAll('.mic-btn').forEach(b=>b.classList.remove('listening'));
+}
+
+function evaluateSpeech(said, target, fbId, onSuccess) {
+  const clean = s => s.toLowerCase().replace(/[^a-z]/g,'');
+  const match = clean(said).includes(clean(target)) || clean(target).includes(clean(said));
+  const msgs = ['⭐ Excellent!','🎉 Fantastic reading!','👏 Wonderful!','🌟 Superstar!','✨ Perfect!'];
+  const retryMsgs = ["😊 Good try! Let's read it once more.","🙂 Almost! Try again.","💪 Keep going — you can do it!"];
+  if(match) {
+    const msg = msgs[Math.floor(Math.random()*msgs.length)];
+    showFeedback(fbId, msg, 'success');
+    confetti();
+    if(onSuccess) onSuccess();
+    showModal('⭐',msg,'You spoke it so well!');
+  } else {
+    showFeedback(fbId, retryMsgs[Math.floor(Math.random()*retryMsgs.length)], 'retry');
+    speak(target);
+  }
+}
+
+function showFeedback(id, msg, type) {
+  const el = document.getElementById(id);
+  if(!el) return;
+  el.textContent = msg;
+  el.className = `feedback-box ${type}`;
+}
+function hideFeedback() { hideFeedbackById('feedbackBox'); }
+function hideFeedbackById(id) {
+  const el = document.getElementById(id);
+  if(el) el.className='feedback-box hidden';
+}
+
+// ============================================================
+//  POEMS
+// ============================================================
+async function loadPoems() {
+  try {
+    const res = await fetch('data/poems/blend-poems.json');
+    const data = await res.json();
+    poemsData = data.poems;
+    renderPoemList();
+  } catch(e) { console.warn('Poems not loaded', e); }
+}
+
+function renderPoemList() {
+  const list = document.getElementById('poemListView');
+  list.innerHTML = '';
+  poemsData.forEach(p=>{
+    const div=document.createElement('div');
+    div.className='poem-card';
+    div.innerHTML=`<div class="poem-title">${p.title}</div><div class="poem-meta">Blend: <b>${p.blend}</b> · ${p.level}</div>`;
+    div.onclick=()=>openPoem(p.id);
+    list.appendChild(div);
+  });
+}
+
+function openPoem(id) {
+  currentPoemId = id;
+  const p = poemsData.find(x=>x.id===id);
+  document.getElementById('poemListView').classList.add('hidden');
+  document.getElementById('poemDetailView').classList.remove('hidden');
+  document.getElementById('poemsSectionTitle').textContent = p.title;
+
+  const dv = document.getElementById('poemDetailView');
+  dv.innerHTML=`
+    <div class="poem-view-card">
+      <div style="text-align:center;margin-bottom:16px">
+        <span style="background:#E8F5E9;color:#2E7D32;padding:6px 14px;border-radius:50px;font-size:13px;font-weight:700">Blend: ${p.blend}</span>
+      </div>
+      ${p.lines.map((l,i)=>`<div class="poem-line" id="pline${i}" onclick="speakPoemLine('${l.replace(/'/g,"\\'")}',${i})">${l}</div>`).join('')}
+    </div>
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:4px">
+      <button class="nav-btn speak" onclick="readFullPoem()">🔊 Read Full Poem</button>
+    </div>
+  `;
+  appData.poems++;
+  appData.stars+=3;
+  saveData();
+}
+
+function speakPoemLine(line, idx) {
+  document.querySelectorAll('.poem-line').forEach(l=>l.classList.remove('active'));
+  document.getElementById('pline'+idx)?.classList.add('active');
+  speak(line);
+}
+
+function readFullPoem() {
+  const p = poemsData.find(x=>x.id===currentPoemId);
+  if(!p) return;
+  let i=0;
+  function readNext() {
+    if(i>=p.lines.length) return;
+    speakPoemLine(p.lines[i], i);
+    i++;
+    setTimeout(readNext, 2800);
+  }
+  readNext();
+}
+
+function goBackPoems() {
+  if(currentPoemId) {
+    currentPoemId=null;
+    document.getElementById('poemListView').classList.remove('hidden');
+    document.getElementById('poemDetailView').classList.add('hidden');
+    document.getElementById('poemsSectionTitle').textContent='🎵 Blend Poems';
+  } else {
+    showScreen('home');
+  }
+}
+
+// ============================================================
+//  STORIES
+// ============================================================
+async function loadStories() {
+  try {
+    const res = await fetch('data/poems/beginner-stories.json');
+    const data = await res.json();
+    storiesData = data.stories;
+    renderStoryList();
+  } catch(e) { console.warn('Stories not loaded',e); }
+}
+
+function renderStoryList() {
+  const list = document.getElementById('storyListView');
+  list.innerHTML='';
+  storiesData.forEach(s=>{
+    const div=document.createElement('div');
+    div.className='story-card';
+    div.innerHTML=`<div class="story-emoji">${s.emoji}</div><div class="story-info"><div class="story-name">${s.title}</div><div class="story-age">Age: ${s.ageGroup} · ${s.level}</div></div>`;
+    div.onclick=()=>openStory(s.id);
+    list.appendChild(div);
+  });
+}
+
+function openStory(id) {
+  currentStoryId=id;
+  const s=storiesData.find(x=>x.id===id);
+  document.getElementById('storyListView').classList.add('hidden');
+  document.getElementById('storyDetailView').classList.remove('hidden');
+  document.getElementById('storiesSectionTitle').textContent=s.title;
+
+  const dv=document.getElementById('storyDetailView');
+  dv.innerHTML=`
+    <div style="text-align:center;margin-bottom:16px;font-size:48px">${s.emoji}</div>
+    ${s.sentences.map((sent,i)=>`<div class="story-sentence" id="ss${i}" onclick="speakStorySentence('${sent.replace(/'/g,"\\'")}',${i})">${sent}</div>`).join('')}
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:8px">
+      <button class="nav-btn speak" onclick="readFullStory()">🔊 Read Full Story</button>
+    </div>
+  `;
+  appData.stories++;
+  appData.stars+=5;
+  saveData();
+}
+
+function speakStorySentence(sent, idx) {
+  document.querySelectorAll('.story-sentence').forEach(s=>s.classList.remove('active'));
+  document.getElementById('ss'+idx)?.classList.add('active');
+  speak(sent);
+}
+
+function readFullStory() {
+  const s=storiesData.find(x=>x.id===currentStoryId);
+  if(!s) return;
+  let i=0;
+  function next() {
+    if(i>=s.sentences.length) { showToast('🎉 Story complete!'); confetti(); return; }
+    speakStorySentence(s.sentences[i],i);
+    i++;
+    setTimeout(next, 3000);
+  }
+  next();
+}
+
+function goBackStories() {
+  if(currentStoryId) {
+    currentStoryId=null;
+    document.getElementById('storyListView').classList.remove('hidden');
+    document.getElementById('storyDetailView').classList.add('hidden');
+    document.getElementById('storiesSectionTitle').textContent='📖 Reading Stories';
+  } else {
+    showScreen('home');
+  }
+}
+
+// ============================================================
+//  READ ALOUD
+// ============================================================
+function initAloud() {
+  currentAloudIdx = Math.floor(Math.random()*ALOUD_SENTENCES.length);
+  document.getElementById('aloudSentence').textContent = ALOUD_SENTENCES[currentAloudIdx];
+}
+
+function speakAloud() {
+  const sent = ALOUD_SENTENCES[currentAloudIdx];
+  setWaveActive(true);
+  speak(sent, ()=>setWaveActive(false));
+}
+
+function setWaveActive(on) {
+  document.querySelectorAll('.wave-bar').forEach(b=>b.classList.toggle('active',on));
+}
+
+function nextAloudSentence() {
+  currentAloudIdx=(currentAloudIdx+1)%ALOUD_SENTENCES.length;
+  document.getElementById('aloudSentence').textContent=ALOUD_SENTENCES[currentAloudIdx];
+  hideFeedbackById('aloudFeedback');
+}
+
+function toggleAloudMic() {
+  if(isListening){stopListening();return;}
+  const target=ALOUD_SENTENCES[currentAloudIdx].split(' ').slice(0,3).join(' ');
+  startListening('aloudMicBtn',null,'aloudFeedback',target,()=>{
+    appData.aloud++;
+    appData.stars+=3;
+    saveData();
+  });
+}
+
+// ============================================================
+//  MOM MODE
+// ============================================================
+function resetMomMode() {
+  currentMomIdx=0; momTurn='buddy';
+  document.getElementById('momSentence').textContent='Press Start to begin!';
+  document.getElementById('turnIndicator').textContent='👩 Reading Buddy\'s Turn';
+  document.getElementById('turnIndicator').className='turn-indicator turn-buddy';
+  document.getElementById('momMicBtn').style.display='none';
+  document.getElementById('momSpeakBtn').style.display='inline-flex';
+  hideFeedbackById('momFeedback');
+}
+
+function momSpeak() {
+  const sent=MOM_SENTENCES[currentMomIdx];
+  document.getElementById('momSentence').textContent=sent;
+  speak(sent, ()=>{
+    momTurn='child';
+    document.getElementById('turnIndicator').textContent='👧 Your Turn — Repeat it!';
+    document.getElementById('turnIndicator').className='turn-indicator turn-child';
+    document.getElementById('momSpeakBtn').style.display='none';
+    document.getElementById('momMicBtn').style.display='inline-flex';
+  });
+}
+
+function toggleMomMic() {
+  if(isListening){stopListening();return;}
+  const target=MOM_SENTENCES[currentMomIdx].split(' ').slice(0,3).join(' ');
+  startListening('momMicBtn',null,'momFeedback',target,()=>{
+    appData.aloud++;
+    appData.stars+=3;
+    saveData();
+  });
+}
+
+function nextMomSentence() {
+  currentMomIdx=(currentMomIdx+1)%MOM_SENTENCES.length;
+  momTurn='buddy';
+  document.getElementById('turnIndicator').textContent='👩 Reading Buddy\'s Turn';
+  document.getElementById('turnIndicator').className='turn-indicator turn-buddy';
+  document.getElementById('momSentence').textContent=MOM_SENTENCES[currentMomIdx];
+  document.getElementById('momSpeakBtn').style.display='inline-flex';
+  document.getElementById('momMicBtn').style.display='none';
+  hideFeedbackById('momFeedback');
+}
+
+// ============================================================
+//  PROGRESS
+// ============================================================
+function renderProgress() {
+  const g=document.getElementById('progressGrid');
+  g.innerHTML=[
+    {icon:'⭐',val:appData.stars,label:'Stars Earned'},
+    {icon:'📚',val:appData.words,label:'Words Read'},
+    {icon:'🎵',val:appData.poems,label:'Poems Explored'},
+    {icon:'📖',val:appData.stories,label:'Stories Read'},
+    {icon:'🎤',val:appData.aloud,label:'Read Alouds'},
+    {icon:'🔥',val:appData.streak,label:'Day Streak'},
+  ].map(x=>`<div class="stat-card"><div class="stat-icon">${x.icon}</div><div class="stat-num">${x.val}</div><div class="stat-label">${x.label}</div></div>`).join('');
+
+  const bg=document.getElementById('badgesGrid');
+  bg.innerHTML=BADGE_DEFS.map(b=>`
+    <div class="badge-item ${appData.badges.includes(b.id)?'earned':''}">
+      <div class="badge-icon">${b.icon}</div>
+      <div class="badge-name">${b.name}</div>
+    </div>
+  `).join('');
+}
+
+// ============================================================
+//  PARENT DASHBOARD
+// ============================================================
+function renderDashboard() {
+  const r=document.getElementById('dashReport');
+  r.innerHTML=[
+    {k:'👤 Child Name', v:appData.name||'—'},
+    {k:'🎂 Age Group', v:appData.age||'—'},
+    {k:'📅 Last Practice', v:appData.lastDate||'—'},
+    {k:'🔥 Current Streak', v:appData.streak+' day(s)'},
+    {k:'⭐ Total Stars', v:appData.stars},
+    {k:'📚 Words Practiced', v:appData.words},
+    {k:'🎵 Poems Opened', v:appData.poems},
+    {k:'📖 Stories Read', v:appData.stories},
+    {k:'🎤 Read Aloud Sessions', v:appData.aloud},
+    {k:'🏅 Badges Earned', v:appData.badges.length+' / '+BADGE_DEFS.length},
+  ].map(x=>`<div class="dash-row"><span class="dash-key">${x.k}</span><span class="dash-val">${x.v}</span></div>`).join('');
+}
+
+function resetProgress() {
+  if(!confirm('Reset all progress? Name and age will be kept.')) return;
+  const {name,age}=appData;
+  appData={name,age,stars:0,words:0,poems:0,stories:0,aloud:0,streak:0,lastDate:new Date().toDateString(),badges:[],favWords:[]};
+  saveData();
+  renderDashboard();
+  showToast('Progress reset! Let\'s start fresh! 🚀');
+}
+
+// ============================================================
+//  MODAL
+// ============================================================
+function showModal(icon,title,body) {
+  document.getElementById('modalIcon').textContent=icon;
+  document.getElementById('modalTitle').textContent=title;
+  document.getElementById('modalBody').textContent=body;
+  document.getElementById('feedbackModal').classList.add('open');
+  setTimeout(closeModal, 3500);
+}
+function closeModal() {
+  document.getElementById('feedbackModal').classList.remove('open');
+}
+
+// ============================================================
+//  TOAST
+// ============================================================
+function showToast(msg) {
+  const t=document.getElementById('toast');
+  t.textContent=msg;
+  t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),2600);
+}
+
+// ============================================================
+//  CONFETTI
+// ============================================================
+function confetti() {
+  const colors=['#FF5C8D','#FFD600','#4FC3F7','#66BB6A','#9C6FE4','#FFA07A'];
+  for(let i=0;i<30;i++){
+    const el=document.createElement('div');
+    el.className='confetti-piece';
+    el.style.cssText=`left:${Math.random()*100}%;top:-10px;background:${colors[Math.floor(Math.random()*colors.length)]};width:${6+Math.random()*8}px;height:${6+Math.random()*8}px;animation-delay:${Math.random()*0.5}s;border-radius:${Math.random()>0.5?'50%':'3px'}`;
+    document.body.appendChild(el);
+    setTimeout(()=>el.remove(),2000);
+  }
+}
+
+// Pre-load voices
+if(synth && synth.onvoiceschanged!==undefined){
+  synth.onvoiceschanged=()=>synth.getVoices();
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,199 @@
+{
+  "poems": [
+    {
+      "id": 1,
+      "title": "The Blue Boat",
+      "blend": "bl",
+      "level": "beginner",
+      "lines": [
+        "A blue boat bobs on the bright sea,",
+        "With blossoms blowing wild and free.",
+        "Blink your eyes and you will see,",
+        "A blue bird landing on a tree!"
+      ],
+      "words": ["blue", "boat", "bright", "blossoms", "blowing", "blink", "blue", "bird"]
+    },
+    {
+      "id": 2,
+      "title": "Clapping Clowns",
+      "blend": "cl",
+      "level": "beginner",
+      "lines": [
+        "Clapping clowns in a clever show,",
+        "Climbing clouds up high and low.",
+        "Clear the stage, and clap along,",
+        "A clumsy clown sings a clever song!"
+      ],
+      "words": ["clapping", "clowns", "clever", "climbing", "clouds", "clear", "clap", "clumsy"]
+    },
+    {
+      "id": 3,
+      "title": "Frog on a Log",
+      "blend": "fr",
+      "level": "beginner",
+      "lines": [
+        "A frog sat on a fresh green log,",
+        "In a frosty morning full of fog.",
+        "He leapt from the log with a free big jump,",
+        "And landed right on a friendly stump!"
+      ],
+      "words": ["frog", "fresh", "frosty", "fog", "free", "friendly"]
+    },
+    {
+      "id": 4,
+      "title": "The Shiny Shell",
+      "blend": "sh",
+      "level": "beginner",
+      "lines": [
+        "I found a shiny shell by the shore,",
+        "Its shimmer and shine I could not ignore.",
+        "I showed it to my sheep named Shaw,",
+        "The shiniest shell I ever saw!"
+      ],
+      "words": ["shiny", "shell", "shore", "shimmer", "shine", "showed", "sheep", "shiniest"]
+    },
+    {
+      "id": 5,
+      "title": "Thinking Thoughts",
+      "blend": "th",
+      "level": "intermediate",
+      "lines": [
+        "I think and think about things all day,",
+        "Three thousand thoughts come out to play.",
+        "The thunder thinks it should be loud,",
+        "But thoughtful rain brings a thankful cloud!"
+      ],
+      "words": ["think", "three", "thousand", "thoughts", "thunder", "thoughtful", "thankful"]
+    },
+    {
+      "id": 6,
+      "title": "Sleeping Sloth",
+      "blend": "sl",
+      "level": "intermediate",
+      "lines": [
+        "A sleepy sloth slides down slow,",
+        "He slips and slides through sleet and snow.",
+        "He slumbers deeply, slick and still,",
+        "On a sloping, slippery hill!"
+      ],
+      "words": ["sleepy", "sloth", "slides", "slow", "slips", "sleet", "slumbers", "slippery"]
+    },
+    {
+      "id": 7,
+      "title": "The Brave Dragon",
+      "blend": "dr",
+      "level": "intermediate",
+      "lines": [
+        "A dragon dreams of dripping rain,",
+        "He drifts through dreams again and again.",
+        "He draws great dragons on the wall,",
+        "And drones his droopy dragon call!"
+      ],
+      "words": ["dragon", "dreams", "dripping", "drifts", "draws", "drones", "droopy"]
+    },
+    {
+      "id": 8,
+      "title": "Snowflakes",
+      "blend": "sn",
+      "level": "intermediate",
+      "lines": [
+        "Snowflakes sneak down from the sky,",
+        "They snuggle on the snowy hillside high.",
+        "The snail beneath says with a sniff,",
+        "I snapped at a snowflake off the cliff!"
+      ],
+      "words": ["snowflakes", "sneak", "snuggle", "snowy", "snail", "sniff", "snapped"]
+    },
+    {
+      "id": 9,
+      "title": "The Bright Star",
+      "blend": "str",
+      "level": "advanced",
+      "lines": [
+        "A strong bright star in the streaky night,",
+        "Stretches its arms to share its light.",
+        "Strange streets below stand straight and still,",
+        "As streams of starlight flow until..."
+      ],
+      "words": ["strong", "streaky", "stretches", "strange", "streets", "straight", "streams", "starlight"]
+    },
+    {
+      "id": 10,
+      "title": "Spring Song",
+      "blend": "spr",
+      "level": "advanced",
+      "lines": [
+        "Spring has sprung with a sprinkle of rain,",
+        "Sprouting flowers spring up again.",
+        "Sprites and sprouts dance in the breeze,",
+        "Spreading springtime through the trees!"
+      ],
+      "words": ["spring", "sprung", "sprinkle", "sprouting", "sprouts", "sprites", "spreading", "springtime"]
+    },
+    {
+      "id": 11,
+      "title": "Cheerful Cherries",
+      "blend": "ch",
+      "level": "beginner",
+      "lines": [
+        "Cherries are cheerful, round and red,",
+        "I chomp on cherries before I go to bed.",
+        "The chickens chase them down the hill,",
+        "And cheer for cherries with a trill!"
+      ],
+      "words": ["cherries", "cheerful", "chomp", "chickens", "chase", "cheer"]
+    },
+    {
+      "id": 12,
+      "title": "Glowing Glowworms",
+      "blend": "gl",
+      "level": "intermediate",
+      "lines": [
+        "Glowing glowworms light the night,",
+        "Their gleaming glow is such a sight.",
+        "They glide and glitter, glad and free,",
+        "Glowing gloriously under the tree!"
+      ],
+      "words": ["glowing", "glowworms", "gleaming", "glow", "glide", "glitter", "glad", "gloriously"]
+    },
+    {
+      "id": 13,
+      "title": "Pretty Princess",
+      "blend": "pr",
+      "level": "beginner",
+      "lines": [
+        "A pretty princess in a proud tall tower,",
+        "Pressed a purple bloom into a flower.",
+        "She pranced and prayed for a prince to come,",
+        "And practiced reading till the day was done!"
+      ],
+      "words": ["pretty", "princess", "proud", "pressed", "purple", "pranced", "prayed", "prince", "practiced"]
+    },
+    {
+      "id": 14,
+      "title": "The Trumpet Player",
+      "blend": "tr",
+      "level": "intermediate",
+      "lines": [
+        "A trumpet trills a tricky tune,",
+        "Trailing notes past the treetops to the moon.",
+        "A trio of frogs try to trot along,",
+        "Trading croaks for a trumpet song!"
+      ],
+      "words": ["trumpet", "trills", "tricky", "trailing", "treetops", "trio", "trot", "trading"]
+    },
+    {
+      "id": 15,
+      "title": "The Clever Crow",
+      "blend": "cr",
+      "level": "advanced",
+      "lines": [
+        "A crafty crow cried out one day,",
+        "I'll cross the creek and find my way!",
+        "With crisscrossed wings he crept along,",
+        "And croaked a crunchy morning song!"
+      ],
+      "words": ["crafty", "crow", "cried", "cross", "creek", "crisscrossed", "crept", "croaked", "crunchy"]
+    }
+  ]
+}

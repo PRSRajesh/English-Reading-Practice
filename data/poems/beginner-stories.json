@@ -1,0 +1,144 @@
+{
+  "stories": [
+    {
+      "id": 1,
+      "title": "The Red Ball",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "Tom has a red ball.",
+        "He can toss it up high.",
+        "The ball hits the wall.",
+        "Tom runs to get it back.",
+        "He loves his red ball!"
+      ],
+      "emoji": "🔴"
+    },
+    {
+      "id": 2,
+      "title": "My Pet Dog",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "I have a dog named Max.",
+        "Max has brown and white fur.",
+        "He can sit and shake hands.",
+        "Max loves to run in the park.",
+        "He is my best friend!"
+      ],
+      "emoji": "🐕"
+    },
+    {
+      "id": 3,
+      "title": "The Big Tree",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "There is a big tree in my yard.",
+        "It has green leaves.",
+        "Birds sit in its branches.",
+        "I love to sit under it.",
+        "The tree keeps me cool!"
+      ],
+      "emoji": "🌳"
+    },
+    {
+      "id": 4,
+      "title": "Mia and the Rain",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "One morning, Mia looked out the window.",
+        "It was raining hard outside.",
+        "She put on her yellow raincoat and boots.",
+        "She jumped in every puddle she saw.",
+        "Rain is not so bad after all!"
+      ],
+      "emoji": "🌧️"
+    },
+    {
+      "id": 5,
+      "title": "The Lost Kitten",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "A tiny kitten sat by the road.",
+        "She cried and looked around.",
+        "Sam heard her and stopped.",
+        "He gave her milk and a warm bed.",
+        "The kitten purred and fell asleep."
+      ],
+      "emoji": "🐱"
+    },
+    {
+      "id": 6,
+      "title": "The Magic Seeds",
+      "level": "intermediate",
+      "ageGroup": "6-8",
+      "sentences": [
+        "Priya found three tiny seeds in the garden.",
+        "She planted them in soft brown soil.",
+        "Every day she watered them with love.",
+        "One morning, three colorful flowers had bloomed!",
+        "Priya danced with joy in the garden."
+      ],
+      "emoji": "🌻"
+    },
+    {
+      "id": 7,
+      "title": "The Space Adventure",
+      "level": "intermediate",
+      "ageGroup": "6-8",
+      "sentences": [
+        "Raj dreamed he was in a silver rocket.",
+        "He zoomed past the moon and the stars.",
+        "An alien waved at him from a purple planet.",
+        "Raj waved back and tossed a cookie over.",
+        "He woke up smiling — what a dream!"
+      ],
+      "emoji": "🚀"
+    },
+    {
+      "id": 8,
+      "title": "The Sneaky Fox",
+      "level": "intermediate",
+      "ageGroup": "9-12",
+      "sentences": [
+        "A clever fox crept into the quiet forest.",
+        "He smelled something sweet near the beehive.",
+        "The bees buzzed and the fox stepped back.",
+        "He thought of a plan to trick them.",
+        "But the bees were smarter, and the fox ran away!"
+      ],
+      "emoji": "🦊"
+    },
+    {
+      "id": 9,
+      "title": "The Old Lighthouse",
+      "level": "advanced",
+      "ageGroup": "9-12",
+      "sentences": [
+        "The old lighthouse stood tall at the edge of the sea.",
+        "Every night, its beam swept across the dark waters.",
+        "Captain Meera climbed the spiral stairs to light the lamp.",
+        "Ships far away saw the glow and steered safely.",
+        "The lighthouse never slept — and neither did Meera."
+      ],
+      "emoji": "🏛️"
+    },
+    {
+      "id": 10,
+      "title": "The River Race",
+      "level": "advanced",
+      "ageGroup": "9-12",
+      "sentences": [
+        "The annual river race began at sunrise.",
+        "Ten boats lined up, each paddler ready.",
+        "Anand's arms ached, but he kept rowing hard.",
+        "At the final bend, he burst ahead of the rest.",
+        "He crossed the finish line and the crowd roared!"
+      ],
+      "emoji": "🚣"
+    }
+  ]
+}

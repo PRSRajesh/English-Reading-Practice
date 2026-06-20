@@ -1,0 +1,20 @@
+{
+  "category": "6-letter",
+  "words": [
+    {"word": "bright", "tamil": "பிரகாசம்", "example": "The sun is bright.", "emoji": "☀️", "blend": ["br", "ight"]},
+    {"word": "castle", "tamil": "கோட்டை", "example": "A tall castle.", "emoji": "🏰", "blend": ["cas", "tle"]},
+    {"word": "clouds", "tamil": "மேகங்கள்", "example": "Fluffy white clouds.", "emoji": "☁️", "blend": ["cl", "ouds"]},
+    {"word": "dragon", "tamil": "டிராகன்", "example": "A fire-breathing dragon.", "emoji": "🐉", "blend": ["dr", "agon"]},
+    {"word": "flower", "tamil": "மலர்", "example": "A pretty flower.", "emoji": "🌸", "blend": ["fl", "ower"]},
+    {"word": "friend", "tamil": "நண்பர்", "example": "My best friend.", "emoji": "👫", "blend": ["fr", "iend"]},
+    {"word": "jungle", "tamil": "காடு", "example": "Lions live in the jungle.", "emoji": "🌿", "blend": ["jun", "gle"]},
+    {"word": "ladder", "tamil": "ஏணி", "example": "Climb the ladder.", "emoji": "🪜", "blend": ["lad", "der"]},
+    {"word": "mirror", "tamil": "கண்ணாடி", "example": "Look in the mirror.", "emoji": "🪞", "blend": ["mir", "ror"]},
+    {"word": "orange", "tamil": "ஆரஞ்சு", "example": "Peel an orange.", "emoji": "🍊", "blend": ["or", "ange"]},
+    {"word": "parrot", "tamil": "கிளி", "example": "A parrot can talk.", "emoji": "🦜", "blend": ["par", "rot"]},
+    {"word": "pencil", "tamil": "பென்சில்", "example": "Draw with a pencil.", "emoji": "✏️", "blend": ["pen", "cil"]},
+    {"word": "planet", "tamil": "கோள்", "example": "Earth is a planet.", "emoji": "🌍", "blend": ["plan", "et"]},
+    {"word": "rabbit", "tamil": "முயல்", "example": "A white rabbit.", "emoji": "🐇", "blend": ["rab", "bit"]},
+    {"word": "rocket", "tamil": "ஏவுகணை", "example": "Launch the rocket!", "emoji": "🚀", "blend": ["rock", "et"]}
+  ]
+}

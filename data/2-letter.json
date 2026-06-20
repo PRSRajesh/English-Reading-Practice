@@ -1,0 +1,20 @@
+{
+  "category": "2-letter",
+  "words": [
+    {"word": "at", "tamil": "இல்", "example": "I am at home.", "emoji": "🏠"},
+    {"word": "an", "tamil": "ஒரு", "example": "An apple fell.", "emoji": "🍎"},
+    {"word": "in", "tamil": "உள்ளே", "example": "Come in!", "emoji": "🚪"},
+    {"word": "on", "tamil": "மேல்", "example": "Sit on it.", "emoji": "🪑"},
+    {"word": "up", "tamil": "மேலே", "example": "Look up!", "emoji": "☁️"},
+    {"word": "go", "tamil": "போ", "example": "Go fast!", "emoji": "🚀"},
+    {"word": "me", "tamil": "என்னை", "example": "Help me!", "emoji": "🙋"},
+    {"word": "we", "tamil": "நாம்", "example": "We play.", "emoji": "👫"},
+    {"word": "it", "tamil": "அது", "example": "It is fun.", "emoji": "🎉"},
+    {"word": "my", "tamil": "என்", "example": "My dog ran.", "emoji": "🐕"},
+    {"word": "no", "tamil": "இல்லை", "example": "No, stop!", "emoji": "🛑"},
+    {"word": "so", "tamil": "அதனால்", "example": "So funny!", "emoji": "😂"},
+    {"word": "do", "tamil": "செய்", "example": "Do your best.", "emoji": "💪"},
+    {"word": "by", "tamil": "அருகில்", "example": "Sit by me.", "emoji": "🤝"},
+    {"word": "be", "tamil": "இரு", "example": "Be kind.", "emoji": "❤️"}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "category": "9-letter",
+  "words": [
+    {"word": "adventure", "tamil": "சாகசம்", "example": "An amazing adventure!", "emoji": "🗺️", "blend": ["ad", "ven", "ture"]},
+    {"word": "beautiful", "tamil": "அழகான", "example": "A beautiful flower.", "emoji": "🌸", "blend": ["beau", "ti", "ful"]},
+    {"word": "butterfly", "tamil": "பட்டாம்பூச்சி", "example": "A butterfly flutters.", "emoji": "🦋", "blend": ["but", "ter", "fly"]},
+    {"word": "challenge", "tamil": "சவால்", "example": "Accept the challenge!", "emoji": "🏆", "blend": ["chal", "lenge"]},
+    {"word": "chocolate", "tamil": "சாக்லேட்", "example": "Sweet chocolate!", "emoji": "🍫", "blend": ["choc", "o", "late"]},
+    {"word": "celebrate", "tamil": "கொண்டாடு", "example": "Let us celebrate!", "emoji": "🎉", "blend": ["cel", "e", "brate"]},
+    {"word": "crocodile", "tamil": "முதலை", "example": "A crocodile snaps.", "emoji": "🐊", "blend": ["croc", "o", "dile"]},
+    {"word": "discovery", "tamil": "கண்டுபிடிப்பு", "example": "A great discovery!", "emoji": "🔭", "blend": ["dis", "cov", "ery"]},
+    {"word": "excellent", "tamil": "சிறந்த", "example": "Excellent work!", "emoji": "⭐", "blend": ["ex", "cel", "lent"]},
+    {"word": "fantastic", "tamil": "அருமை", "example": "A fantastic day!", "emoji": "🎊", "blend": ["fan", "tas", "tic"]},
+    {"word": "geography", "tamil": "புவியியல்", "example": "Learn geography.", "emoji": "🌍", "blend": ["ge", "og", "ra", "phy"]},
+    {"word": "hurricane", "tamil": "சூறாவளி", "example": "A hurricane is strong.", "emoji": "🌀", "blend": ["hur", "ri", "cane"]},
+    {"word": "important", "tamil": "முக்கியமான", "example": "This is important!", "emoji": "❗", "blend": ["im", "por", "tant"]},
+    {"word": "wonderful", "tamil": "அற்புதமான", "example": "A wonderful place.", "emoji": "✨", "blend": ["won", "der", "ful"]},
+    {"word": "celebrate", "tamil": "கொண்டாடு", "example": "We celebrate today.", "emoji": "🎂", "blend": ["cel", "e", "brate"]}
+  ]
+}

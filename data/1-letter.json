@@ -1,0 +1,10 @@
+{
+  "category": "1-letter",
+  "words": [
+    {"word": "A", "tamil": "ஒரு", "example": "A cat sat.", "emoji": "🐱"},
+    {"word": "I", "tamil": "நான்", "example": "I can fly.", "emoji": "✈️"},
+    {"word": "O", "tamil": "ஓ!", "example": "O, what fun!", "emoji": "😮"},
+    {"word": "U", "tamil": "நீ", "example": "U are great!", "emoji": "⭐"},
+    {"word": "E", "tamil": "இ", "example": "E is easy.", "emoji": "😊"}
+  ]
+}
