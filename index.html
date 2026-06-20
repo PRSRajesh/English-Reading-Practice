@@ -786,10 +786,15 @@ let currentPoemId = null, currentStoryId = null;
 window.onload = () => {
   generateStars();
   loadData();
-  if(appData.name && appData.age) {
-    initApp();
-  }
   checkStreak();
+
+  // Always show the welcome page
+  showScreen('welcome');
+
+  // Pre-fill saved values if available
+  if (appData.name) {
+    document.getElementById('childName').value = appData.name;
+  }
 };
 
 function generateStars() {
