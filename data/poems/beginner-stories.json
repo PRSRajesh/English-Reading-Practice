@@ -1200,6 +1200,216 @@
         "It is a happy ending."
       ],
       "emoji": "😊"
+    },
+    {
+      "id": 86,
+      "title": "The Lost Kite",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "Tom had a kite.",
+        "The wind took it high.",
+        "It flew into a tree.",
+        "Tom felt sad.",
+        "Dad helped bring it down."
+      ],
+      "emoji": "🪁"
+    },
+    {
+      "id": 87,
+      "title": "The Little Star",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "A small star shines.",
+        "It is very bright.",
+        "Children look at it.",
+        "They smile at night.",
+        "The star is friendly."
+      ],
+      "emoji": "⭐"
+    },
+    {
+      "id": 88,
+      "title": "The Rainy Walk",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "Mia went outside.",
+        "It started to rain.",
+        "She used an umbrella.",
+        "She wore yellow boots.",
+        "She enjoyed the walk."
+      ],
+      "emoji": "☔"
+    },
+    {
+      "id": 89,
+      "title": "The Hungry Bird",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "A bird was hungry.",
+        "It searched for food.",
+        "It found seeds.",
+        "It ate happily.",
+        "It flew away."
+      ],
+      "emoji": "🐦"
+    },
+    {
+      "id": 90,
+      "title": "The Helpful Friend",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "Ravi saw his friend fall.",
+        "He ran quickly.",
+        "He helped him stand.",
+        "They smiled together.",
+        "Friends care for each other."
+      ],
+      "emoji": "🤝"
+    },
+    {
+      "id": 91,
+      "title": "The Magic Pencil",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "Sara had a pencil.",
+        "It was special.",
+        "She drew a house.",
+        "It looked real.",
+        "She was surprised."
+      ],
+      "emoji": "✏️"
+    },
+    {
+      "id": 92,
+      "title": "The Lost Puppy",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "A puppy was lost.",
+        "It cried softly.",
+        "A boy found it.",
+        "He gave water.",
+        "The puppy was happy."
+      ],
+      "emoji": "🐶"
+    },
+    {
+      "id": 93,
+      "title": "The Picnic Day",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "The family went outside.",
+        "They brought food.",
+        "They sat on grass.",
+        "They played games.",
+        "It was fun."
+      ],
+      "emoji": "🧺"
+    },
+    {
+      "id": 94,
+      "title": "The School Bell",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "The bell rang.",
+        "Children went inside.",
+        "Teacher smiled.",
+        "Class started.",
+        "Learning was fun."
+      ],
+      "emoji": "🔔"
+    },
+    {
+      "id": 95,
+      "title": "The Friendly Cat",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "A cat came near.",
+        "It was soft.",
+        "It liked milk.",
+        "Children played with it.",
+        "It was friendly."
+      ],
+      "emoji": "🐱"
+    },
+    {
+      "id": 96,
+      "title": "The Bright Sun",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "The sun is bright.",
+        "It gives light.",
+        "Plants grow well.",
+        "Birds fly high.",
+        "Day is warm."
+      ],
+      "emoji": "☀️"
+    },
+    {
+      "id": 97,
+      "title": "The Balloon Ride",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "Tom held a balloon.",
+        "It flew away.",
+        "He ran fast.",
+        "His father helped.",
+        "They laughed together."
+      ],
+      "emoji": "🎈"
+    },
+    {
+      "id": 98,
+      "title": "The Clean Room",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "Mia cleaned her room.",
+        "She picked toys.",
+        "She arranged books.",
+        "The room looked nice.",
+        "She felt happy."
+      ],
+      "emoji": "🧹"
+    },
+    {
+      "id": 99,
+      "title": "The River Fish",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "Fish swim in river.",
+        "Water is clean.",
+        "They move fast.",
+        "Birds watch them.",
+        "Nature is beautiful."
+      ],
+      "emoji": "🐟"
+    },
+    {
+      "id": 100,
+      "title": "The Happy School Day",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "Children went to school.",
+        "They learned new things.",
+        "They played outside.",
+        "They ate lunch.",
+        "They went home happy."
+      ],
+      "emoji": "🏫"
     }
   ]
 }
