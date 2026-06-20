@@ -139,6 +139,1067 @@
         "He crossed the finish line and the crowd roared!"
       ],
       "emoji": "🚣"
+    },
+    {
+      "id": 11,
+      "title": "The Blue Kite",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "Aarav has a blue kite.",
+        "He runs in the open field.",
+        "The wind lifts the kite high.",
+        "It flies above the trees.",
+        "Aarav smiles and holds the string."
+      ],
+      "emoji": "🪁"
+    },
+    {
+      "id": 12,
+      "title": "The Happy Duck",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "A duck swims in the pond.",
+        "It splashes water with joy.",
+        "Small fish swim around it.",
+        "The duck quacks loudly.",
+        "It loves the cool water."
+      ],
+      "emoji": "🦆"
+    },
+    {
+      "id": 13,
+      "title": "The Green Garden",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "My garden is very green.",
+        "Flowers bloom every morning.",
+        "Butterflies fly around them.",
+        "I water the plants daily.",
+        "I love my garden."
+      ],
+      "emoji": "🌼"
+    },
+    {
+      "id": 14,
+      "title": "The Little Cat",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "A small cat sleeps on the sofa.",
+        "It has soft white fur.",
+        "It drinks warm milk.",
+        "It chases tiny insects.",
+        "It is very cute."
+      ],
+      "emoji": "🐱"
+    },
+    {
+      "id": 15,
+      "title": "The School Bus",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "The yellow bus comes daily.",
+        "Children wait at the stop.",
+        "They wave to their friends.",
+        "The bus takes them to school.",
+        "Everyone sings happily."
+      ],
+      "emoji": "🚌"
+    },
+
+    {
+      "id": 16,
+      "title": "The Friendly Robot",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "A small robot helps in the house.",
+        "It cleans the floor.",
+        "It can speak simple words.",
+        "Children play with it happily.",
+        "The robot is very friendly."
+      ],
+      "emoji": "🤖"
+    },
+    {
+      "id": 17,
+      "title": "The Lost Balloon",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "Riya had a red balloon.",
+        "It slipped from her hand.",
+        "The balloon flew into the sky.",
+        "She watched it go high.",
+        "She waved goodbye sadly."
+      ],
+      "emoji": "🎈"
+    },
+    {
+      "id": 18,
+      "title": "The Rainy Walk",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "Arjun walks in the rain.",
+        "He wears a blue raincoat.",
+        "He jumps in water puddles.",
+        "Cars splash water on roads.",
+        "He enjoys the rainy day."
+      ],
+      "emoji": "🌧️"
+    },
+    {
+      "id": 19,
+      "title": "The Magic Pencil",
+      "level": "intermediate",
+      "ageGroup": "6-8",
+      "sentences": [
+        "Meena found a golden pencil.",
+        "It could draw real things.",
+        "She drew a big cake.",
+        "Suddenly, the cake appeared!",
+        "She was very surprised."
+      ],
+      "emoji": "✏️"
+    },
+    {
+      "id": 20,
+      "title": "The Forest Walk",
+      "level": "intermediate",
+      "ageGroup": "6-8",
+      "sentences": [
+        "Ravi walks in the forest.",
+        "Tall trees surround him.",
+        "Birds sing in the branches.",
+        "He hears water flowing.",
+        "It feels peaceful."
+      ],
+      "emoji": "🌲"
+    },
+
+    {
+      "id": 21,
+      "title": "The Brave Boy",
+      "level": "intermediate",
+      "ageGroup": "9-12",
+      "sentences": [
+        "A boy saw a dog in trouble.",
+        "The dog was stuck in mud.",
+        "He slowly helped the dog out.",
+        "The dog licked his hand.",
+        "He felt very proud."
+      ],
+      "emoji": "🐕"
+    },
+    {
+      "id": 22,
+      "title": "The Hidden Treasure",
+      "level": "intermediate",
+      "ageGroup": "9-12",
+      "sentences": [
+        "Friends found an old map.",
+        "It showed a treasure location.",
+        "They followed the clues.",
+        "They dug near a tree.",
+        "They found a small box."
+      ],
+      "emoji": "🪙"
+    },
+    {
+      "id": 23,
+      "title": "The Ocean Trip",
+      "level": "intermediate",
+      "ageGroup": "9-12",
+      "sentences": [
+        "A group went to the sea.",
+        "They saw big waves.",
+        "Fish jumped in the water.",
+        "They rode a boat.",
+        "It was an amazing trip."
+      ],
+      "emoji": "🌊"
+    },
+    {
+      "id": 24,
+      "title": "The Smart Student",
+      "level": "intermediate",
+      "ageGroup": "9-12",
+      "sentences": [
+        "A student studied every day.",
+        "He asked many questions.",
+        "Teachers liked his curiosity.",
+        "He scored top marks.",
+        "Everyone praised him."
+      ],
+      "emoji": "📚"
+    },
+    {
+      "id": 25,
+      "title": "The Night Sky",
+      "level": "advanced",
+      "ageGroup": "9-12",
+      "sentences": [
+        "The sky is full of stars.",
+        "The moon shines brightly.",
+        "Children watch from rooftops.",
+        "They imagine space journeys.",
+        "Night feels magical."
+      ],
+      "emoji": "🌌"
+    },
+    {
+      "id": 26,
+      "title": "The Singing Bird",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "A small bird sits on a branch.",
+        "It sings a sweet song.",
+        "Children hear it in the morning.",
+        "The bird flies in the sky.",
+        "Everyone feels happy."
+      ],
+      "emoji": "🐦"
+    },
+    {
+      "id": 27,
+      "title": "The Colorful Balloons",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "Many balloons float in the air.",
+        "They are red, blue, and yellow.",
+        "Children hold them tightly.",
+        "One balloon flies away.",
+        "They laugh and watch it go."
+      ],
+      "emoji": "🎈"
+    },
+    {
+      "id": 28,
+      "title": "The Ice Cream Day",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "Riya eats ice cream.",
+        "It is cold and sweet.",
+        "It melts in the sun.",
+        "She eats it fast.",
+        "She is very happy."
+      ],
+      "emoji": "🍦"
+    },
+    {
+      "id": 29,
+      "title": "The Little Ant",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "A tiny ant walks on the floor.",
+        "It carries a small leaf.",
+        "It goes to its home.",
+        "Other ants help it.",
+        "They work together."
+      ],
+      "emoji": "🐜"
+    },
+    {
+      "id": 30,
+      "title": "The Sunny Day",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "The sun shines bright.",
+        "The sky is blue.",
+        "Children play outside.",
+        "They run and jump.",
+        "It is a happy day."
+      ],
+      "emoji": "☀️"
+    },
+
+    {
+      "id": 31,
+      "title": "The Magic Hat",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "A boy finds a magic hat.",
+        "He wears it on his head.",
+        "A rabbit comes out of it.",
+        "He laughs in surprise.",
+        "The hat is magical."
+      ],
+      "emoji": "🎩"
+    },
+    {
+      "id": 32,
+      "title": "The Playground Fun",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "Children go to the park.",
+        "They play on swings.",
+        "They slide and laugh.",
+        "They share toys.",
+        "It is a fun day."
+      ],
+      "emoji": "🛝"
+    },
+    {
+      "id": 33,
+      "title": "The Clever Monkey",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "A monkey sits on a tree.",
+        "It eats bananas.",
+        "It jumps from branch to branch.",
+        "It tricks a tiger.",
+        "It is very clever."
+      ],
+      "emoji": "🐒"
+    },
+    {
+      "id": 34,
+      "title": "The Lost Shoe",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "Arun lost his shoe.",
+        "He looked under the bed.",
+        "He checked the garden.",
+        "His dog found it.",
+        "He smiled happily."
+      ],
+      "emoji": "👟"
+    },
+    {
+      "id": 35,
+      "title": "The Happy Farmer",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "A farmer works in the field.",
+        "He plants seeds.",
+        "He waters the crops.",
+        "Plants grow tall.",
+        "He feels very happy."
+      ],
+      "emoji": "👨‍🌾"
+    },
+
+    {
+      "id": 36,
+      "title": "The Space Rocket",
+      "level": "intermediate",
+      "ageGroup": "6-8",
+      "sentences": [
+        "A rocket stands on the ground.",
+        "Scientists check all systems.",
+        "It flies into space.",
+        "Stars shine around it.",
+        "It reaches the moon."
+      ],
+      "emoji": "🚀"
+    },
+    {
+      "id": 37,
+      "title": "The Talking Parrot",
+      "level": "intermediate",
+      "ageGroup": "6-8",
+      "sentences": [
+        "A parrot sits in a cage.",
+        "It repeats words.",
+        "Children laugh at it.",
+        "It learns new sounds.",
+        "It is very funny."
+      ],
+      "emoji": "🦜"
+    },
+    {
+      "id": 38,
+      "title": "The Rainbow Sky",
+      "level": "intermediate",
+      "ageGroup": "6-8",
+      "sentences": [
+        "Rain falls in the morning.",
+        "The sun comes out.",
+        "A rainbow appears in the sky.",
+        "Children point at it.",
+        "It looks beautiful."
+      ],
+      "emoji": "🌈"
+    },
+    {
+      "id": 39,
+      "title": "The Brave Firefighter",
+      "level": "intermediate",
+      "ageGroup": "9-12",
+      "sentences": [
+        "A fire starts in a house.",
+        "Firefighters arrive quickly.",
+        "They use water hoses.",
+        "They save everyone.",
+        "They are heroes."
+      ],
+      "emoji": "🚒"
+    },
+    {
+      "id": 40,
+      "title": "The Lost Compass",
+      "level": "intermediate",
+      "ageGroup": "9-12",
+      "sentences": [
+        "A traveler loses his compass.",
+        "He walks in the forest.",
+        "He follows the stars.",
+        "He finds his way home.",
+        "He learns to be careful."
+      ],
+      "emoji": "🧭"
+    },
+
+    {
+      "id": 41,
+      "title": "The Mountain Climb",
+      "level": "advanced",
+      "ageGroup": "9-12",
+      "sentences": [
+        "Friends climb a tall mountain.",
+        "It is very steep.",
+        "They help each other.",
+        "They reach the top.",
+        "The view is amazing."
+      ],
+      "emoji": "⛰️"
+    },
+    {
+      "id": 42,
+      "title": "The Deep Ocean",
+      "level": "advanced",
+      "ageGroup": "9-12",
+      "sentences": [
+        "Divers explore the ocean.",
+        "They see colorful fish.",
+        "They find coral reefs.",
+        "The water is deep blue.",
+        "It is a new world."
+      ],
+      "emoji": "🌊"
+    },
+    {
+      "id": 43,
+      "title": "The School Project",
+      "level": "intermediate",
+      "ageGroup": "9-12",
+      "sentences": [
+        "Students make a science project.",
+        "They build a volcano model.",
+        "It erupts with baking soda.",
+        "Teachers clap for them.",
+        "They feel proud."
+      ],
+      "emoji": "🧪"
+    },
+    {
+      "id": 44,
+      "title": "The Friendly Giant",
+      "level": "intermediate",
+      "ageGroup": "6-8",
+      "sentences": [
+        "A giant lives in a cave.",
+        "He is very kind.",
+        "He helps lost children.",
+        "He shares his food.",
+        "Everyone likes him."
+      ],
+      "emoji": "🧌"
+    },
+    {
+      "id": 45,
+      "title": "The Morning Walk",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "Grandpa walks in the morning.",
+        "Birds sing in trees.",
+        "Fresh air feels nice.",
+        "He smiles at people.",
+        "It is a peaceful walk."
+      ],
+      "emoji": "🚶"
+    },
+    {
+      "id": 46,
+      "title": "The Lost Teddy",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "Riya has a teddy bear.",
+        "She takes it everywhere.",
+        "One day it gets lost.",
+        "She looks under the bed.",
+        "She finds it and hugs it."
+      ],
+      "emoji": "🧸"
+    },
+    {
+      "id": 47,
+      "title": "The Happy Cat",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "A cat sleeps on the chair.",
+        "It wakes up slowly.",
+        "It stretches its body.",
+        "It drinks milk.",
+        "It is very happy."
+      ],
+      "emoji": "🐱"
+    },
+    {
+      "id": 48,
+      "title": "The Red Apple",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "An apple is on the table.",
+        "It is red and shiny.",
+        "A boy picks it up.",
+        "He takes a bite.",
+        "It tastes sweet."
+      ],
+      "emoji": "🍎"
+    },
+    {
+      "id": 49,
+      "title": "The Little Train",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "A toy train runs on tracks.",
+        "It goes round and round.",
+        "Children watch it.",
+        "It makes a sound.",
+        "They love the train."
+      ],
+      "emoji": "🚂"
+    },
+    {
+      "id": 50,
+      "title": "The Flying Bird",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "A bird flies in the sky.",
+        "It spreads its wings.",
+        "It sings a song.",
+        "It lands on a tree.",
+        "It is free and happy."
+      ],
+      "emoji": "🐦"
+    },
+
+    {
+      "id": 51,
+      "title": "The Rainy Umbrella",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "It starts to rain.",
+        "A boy opens his umbrella.",
+        "He walks carefully.",
+        "Puddles splash on the road.",
+        "He reaches home safely."
+      ],
+      "emoji": "☔"
+    },
+    {
+      "id": 52,
+      "title": "The Chocolate Cake",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "A cake is on the table.",
+        "It smells sweet.",
+        "Children gather around.",
+        "They cut the cake.",
+        "They enjoy it together."
+      ],
+      "emoji": "🍰"
+    },
+    {
+      "id": 53,
+      "title": "The Magic Treehouse",
+      "level": "intermediate",
+      "ageGroup": "6-8",
+      "sentences": [
+        "Children find a treehouse.",
+        "It glows at night.",
+        "They climb inside.",
+        "It takes them to places.",
+        "It is full of magic."
+      ],
+      "emoji": "🏡"
+    },
+    {
+      "id": 54,
+      "title": "The Clever Girl",
+      "level": "intermediate",
+      "ageGroup": "6-8",
+      "sentences": [
+        "A girl solves a puzzle.",
+        "It is very hard.",
+        "She thinks carefully.",
+        "She finds the answer.",
+        "Everyone claps for her."
+      ],
+      "emoji": "🧠"
+    },
+    {
+      "id": 55,
+      "title": "The Garden Party",
+      "level": "intermediate",
+      "ageGroup": "6-8",
+      "sentences": [
+        "Friends meet in a garden.",
+        "They eat snacks.",
+        "They play games.",
+        "They laugh together.",
+        "It is a happy party."
+      ],
+      "emoji": "🎉"
+    },
+
+    {
+      "id": 56,
+      "title": "The Desert Journey",
+      "level": "intermediate",
+      "ageGroup": "9-12",
+      "sentences": [
+        "Travelers walk in the desert.",
+        "It is very hot.",
+        "They carry water.",
+        "They see camels.",
+        "They reach an oasis."
+      ],
+      "emoji": "🏜️"
+    },
+    {
+      "id": 57,
+      "title": "The Smart Inventor",
+      "level": "intermediate",
+      "ageGroup": "9-12",
+      "sentences": [
+        "A boy builds a machine.",
+        "It can clean rooms.",
+        "He tests it carefully.",
+        "It works very well.",
+        "Everyone is impressed."
+      ],
+      "emoji": "🤖"
+    },
+    {
+      "id": 58,
+      "title": "The Secret Cave",
+      "level": "intermediate",
+      "ageGroup": "9-12",
+      "sentences": [
+        "Friends explore a cave.",
+        "It is dark inside.",
+        "They use flashlights.",
+        "They find drawings.",
+        "It is a mystery."
+      ],
+      "emoji": "🕳️"
+    },
+    {
+      "id": 59,
+      "title": "The Forest Fire Rescue",
+      "level": "advanced",
+      "ageGroup": "9-12",
+      "sentences": [
+        "A fire starts in the forest.",
+        "Animals run away.",
+        "Firefighters arrive quickly.",
+        "They control the fire.",
+        "The forest is saved."
+      ],
+      "emoji": "🔥"
+    },
+    {
+      "id": 60,
+      "title": "The Time Machine",
+      "level": "advanced",
+      "ageGroup": "9-12",
+      "sentences": [
+        "A scientist builds a machine.",
+        "It travels through time.",
+        "He visits the future.",
+        "He sees flying cars.",
+        "He returns amazed."
+      ],
+      "emoji": "⏳"
+    },
+
+    {
+      "id": 61,
+      "title": "The Space Colony",
+      "level": "advanced",
+      "ageGroup": "9-12",
+      "sentences": [
+        "Humans live on Mars.",
+        "They build houses.",
+        "They grow plants.",
+        "They explore the planet.",
+        "It is a new world."
+      ],
+      "emoji": "🚀"
+    },
+    {
+      "id": 62,
+      "title": "The Olympic Dream",
+      "level": "intermediate",
+      "ageGroup": "9-12",
+      "sentences": [
+        "A girl trains every day.",
+        "She runs very fast.",
+        "She joins a race.",
+        "She wins a medal.",
+        "She feels proud."
+      ],
+      "emoji": "🏅"
+    },
+    {
+      "id": 63,
+      "title": "The Talking Computer",
+      "level": "intermediate",
+      "ageGroup": "6-8",
+      "sentences": [
+        "A computer starts talking.",
+        "It answers questions.",
+        "Children are surprised.",
+        "It helps in learning.",
+        "It is very smart."
+      ],
+      "emoji": "💻"
+    },
+    {
+      "id": 64,
+      "title": "The Snow Adventure",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "Snow falls in the mountains.",
+        "Children build snowmen.",
+        "They throw snowballs.",
+        "They wear warm clothes.",
+        "It is fun."
+      ],
+      "emoji": "❄️"
+    },
+    {
+      "id": 65,
+      "title": "The Morning Market",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "People go to the market.",
+        "They buy fruits.",
+        "Vendors sell vegetables.",
+        "It is crowded.",
+        "It is lively."
+      ],
+      "emoji": "🛒"
+    },
+    {
+      "id": 66,
+      "title": "The Friendly Doctor",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "A doctor helps sick people.",
+        "He gives medicine.",
+        "Children feel better.",
+        "He smiles kindly.",
+        "Everyone thanks him."
+      ],
+      "emoji": "👨‍⚕️"
+    },
+    {
+      "id": 67,
+      "title": "The Balloon Ride",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "A hot air balloon rises.",
+        "It floats in the sky.",
+        "People see the world below.",
+        "Clouds are near them.",
+        "It is a fun ride."
+      ],
+      "emoji": "🎈"
+    },
+    {
+      "id": 68,
+      "title": "The Little Chef",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "A boy cooks food.",
+        "He mixes vegetables.",
+        "He stirs the pot.",
+        "It smells good.",
+        "Everyone enjoys eating."
+      ],
+      "emoji": "👨‍🍳"
+    },
+    {
+      "id": 69,
+      "title": "The Busy Bee",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "A bee flies to flowers.",
+        "It collects nectar.",
+        "It makes honey.",
+        "It goes back to hive.",
+        "It works very hard."
+      ],
+      "emoji": "🐝"
+    },
+    {
+      "id": 70,
+      "title": "The Starry Night",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "The night sky is dark.",
+        "Stars shine brightly.",
+        "The moon glows.",
+        "Children look up.",
+        "It is peaceful."
+      ],
+      "emoji": "🌟"
+    },
+
+    {
+      "id": 71,
+      "title": "The Library Visit",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "Children go to the library.",
+        "They read books.",
+        "It is very quiet.",
+        "They learn new things.",
+        "They enjoy reading."
+      ],
+      "emoji": "📚"
+    },
+    {
+      "id": 72,
+      "title": "The Racing Car",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "A car moves very fast.",
+        "It races on track.",
+        "Drivers wear helmets.",
+        "Crowd cheers loudly.",
+        "It is exciting."
+      ],
+      "emoji": "🏎️"
+    },
+    {
+      "id": 73,
+      "title": "The Friendly Elephant",
+      "level": "intermediate",
+      "ageGroup": "6-8",
+      "sentences": [
+        "An elephant walks slowly.",
+        "It helps small animals.",
+        "It drinks water.",
+        "It sprays water playfully.",
+        "It is very kind."
+      ],
+      "emoji": "🐘"
+    },
+    {
+      "id": 74,
+      "title": "The Hidden Island",
+      "level": "intermediate",
+      "ageGroup": "6-8",
+      "sentences": [
+        "A ship finds an island.",
+        "It is full of trees.",
+        "They explore it.",
+        "They find fruits.",
+        "It is a discovery."
+      ],
+      "emoji": "🏝️"
+    },
+    {
+      "id": 75,
+      "title": "The Smart Engineer",
+      "level": "intermediate",
+      "ageGroup": "6-8",
+      "sentences": [
+        "An engineer builds bridges.",
+        "He designs tall buildings.",
+        "He solves problems.",
+        "People use his work.",
+        "He is very smart."
+      ],
+      "emoji": "🏗️"
+    },
+
+    {
+      "id": 76,
+      "title": "The Mountain Rescue",
+      "level": "intermediate",
+      "ageGroup": "9-12",
+      "sentences": [
+        "A hiker gets lost.",
+        "Rescue team searches.",
+        "They climb mountains.",
+        "They find him.",
+        "He is saved safely."
+      ],
+      "emoji": "🚁"
+    },
+    {
+      "id": 77,
+      "title": "The Underwater City",
+      "level": "advanced",
+      "ageGroup": "9-12",
+      "sentences": [
+        "Scientists build underwater homes.",
+        "Fish swim around.",
+        "People live safely.",
+        "They study ocean life.",
+        "It is futuristic."
+      ],
+      "emoji": "🌊"
+    },
+    {
+      "id": 78,
+      "title": "The Space Mission",
+      "level": "advanced",
+      "ageGroup": "9-12",
+      "sentences": [
+        "A rocket launches.",
+        "Astronauts go to space.",
+        "They collect samples.",
+        "They explore planets.",
+        "They return home."
+      ],
+      "emoji": "🚀"
+    },
+    {
+      "id": 79,
+      "title": "The Jungle Expedition",
+      "level": "intermediate",
+      "ageGroup": "9-12",
+      "sentences": [
+        "Explorers enter jungle.",
+        "They see wild animals.",
+        "They take notes.",
+        "They find rare plants.",
+        "It is an adventure."
+      ],
+      "emoji": "🌿"
+    },
+    {
+      "id": 80,
+      "title": "The Future City",
+      "level": "advanced",
+      "ageGroup": "9-12",
+      "sentences": [
+        "Cars fly in sky.",
+        "Buildings are tall.",
+        "Robots help people.",
+        "Everything is advanced.",
+        "It is the future."
+      ],
+      "emoji": "🏙️"
+    },
+
+    {
+      "id": 81,
+      "title": "The Golden Trophy",
+      "level": "intermediate",
+      "ageGroup": "6-8",
+      "sentences": [
+        "A boy wins a race.",
+        "He gets a trophy.",
+        "His friends cheer.",
+        "He smiles proudly.",
+        "He feels happy."
+      ],
+      "emoji": "🏆"
+    },
+    {
+      "id": 82,
+      "title": "The Helping Hand",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "A girl helps her friend.",
+        "They share toys.",
+        "They play together.",
+        "They laugh.",
+        "They are happy."
+      ],
+      "emoji": "🤝"
+    },
+    {
+      "id": 83,
+      "title": "The Magic Show",
+      "level": "beginner",
+      "ageGroup": "6-8",
+      "sentences": [
+        "A magician performs tricks.",
+        "He pulls a rabbit.",
+        "Children clap.",
+        "They are surprised.",
+        "It is fun."
+      ],
+      "emoji": "🎩"
+    },
+    {
+      "id": 84,
+      "title": "The Brave Explorer",
+      "level": "intermediate",
+      "ageGroup": "6-8",
+      "sentences": [
+        "An explorer travels far.",
+        "He finds new places.",
+        "He maps areas.",
+        "He faces challenges.",
+        "He is brave."
+      ],
+      "emoji": "🧭"
+    },
+    {
+      "id": 85,
+      "title": "The Happy Ending",
+      "level": "beginner",
+      "ageGroup": "3-5",
+      "sentences": [
+        "A story ends well.",
+        "Everyone smiles.",
+        "Friends stay together.",
+        "They are kind.",
+        "It is a happy ending."
+      ],
+      "emoji": "😊"
     }
   ]
 }

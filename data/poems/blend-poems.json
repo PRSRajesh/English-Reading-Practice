@@ -194,6 +194,1124 @@
         "And croaked a crunchy morning song!"
       ],
       "words": ["crafty", "crow", "cried", "cross", "creek", "crisscrossed", "crept", "croaked", "crunchy"]
+    },
+    {
+      "id": 16,
+      "title": "Green Grass Garden",
+      "blend": "gr",
+      "level": "beginner",
+      "lines": [
+        "Green grass grows in the garden bright,",
+        "Granny gathers grapes in morning light.",
+        "A grumpy goat grazes near the gate,",
+        "And green frogs jump in a gentle state!"
+      ],
+      "words": ["green", "grass", "garden", "granny", "gathers", "grapes", "grumpy", "goat", "grazes"]
+    },
+    {
+      "id": 17,
+      "title": "Happy Honey Bees",
+      "blend": "h",
+      "level": "beginner",
+      "lines": [
+        "Happy honey bees hum near the hive,",
+        "They hop and hurry, so alive.",
+        "They hug the flowers, yellow and bright,",
+        "And hide in honey by soft sunlight!"
+      ],
+      "words": ["happy", "honey", "bees", "hum", "hop", "hurry", "hug", "hide", "hive"]
+    },
+    {
+      "id": 18,
+      "title": "Magic Milkshake",
+      "blend": "m",
+      "level": "beginner",
+      "lines": [
+        "Milk makes magic in a mug,",
+        "Merry monkeys give a hug.",
+        "Mighty moon shines in the sky,",
+        "And many stars go floating by!"
+      ],
+      "words": ["milk", "magic", "mug", "merry", "monkeys", "mighty", "moon", "many", "milkshake"]
+    },
+    {
+      "id": 19,
+      "title": "The Brave Truck",
+      "blend": "tr",
+      "level": "beginner",
+      "lines": [
+        "A truck travels through tall trees,",
+        "It takes treasures with the breeze.",
+        "It trips on tracks but tries again,",
+        "Through trails and towns and pouring rain!"
+      ],
+      "words": ["truck", "travels", "trees", "treasures", "trips", "tracks", "trails", "towns"]
+    },
+    {
+      "id": 20,
+      "title": "Flying Flute",
+      "blend": "fl",
+      "level": "beginner",
+      "lines": [
+        "A flute flies in the forest air,",
+        "Flaming flowers bloom everywhere.",
+        "A flying fox flaps above,",
+        "And feels the forest full of love!"
+      ],
+      "words": ["flute", "flies", "forest", "flaming", "flowers", "flying", "flaps", "full"]
+    },
+
+    {
+      "id": 21,
+      "title": "Snail Mail Surprise",
+      "blend": "sn",
+      "level": "intermediate",
+      "lines": [
+        "A snail sends mail so slow and steady,",
+        "He snips the stamp and says I'm ready.",
+        "He sneaks through gardens soft and small,",
+        "And sends a note to one and all!"
+      ],
+      "words": ["snail", "snips", "stamp", "sneaks", "slow", "steady", "small", "send"]
+    },
+    {
+      "id": 22,
+      "title": "Bright Bridge",
+      "blend": "br",
+      "level": "beginner",
+      "lines": [
+        "A bright bridge bends over the bay,",
+        "Brave birds bring bread on the way.",
+        "Brown bears break branches near,",
+        "And bring big smiles and cheer!"
+      ],
+      "words": ["bright", "bridge", "bends", "brave", "birds", "bread", "brown", "bears", "bring"]
+    },
+    {
+      "id": 23,
+      "title": "The Dream Train",
+      "blend": "dr",
+      "level": "beginner",
+      "lines": [
+        "A dream train drives through night skies,",
+        "It drops dreams where sleepy child lies.",
+        "It drifts and draws a dreamy line,",
+        "Across the stars that always shine!"
+      ],
+      "words": ["dream", "train", "drives", "drops", "dreams", "drifts", "draws", "drowsy"]
+    },
+    {
+      "id": 24,
+      "title": "Splashing Stream",
+      "blend": "st",
+      "level": "beginner",
+      "lines": [
+        "A stream starts in the mountain high,",
+        "It splashes stones as it passes by.",
+        "Strong stones stand in the flowing stream,",
+        "And sparkly stars in water gleam!"
+      ],
+      "words": ["stream", "starts", "stones", "splashes", "strong", "stand", "sparkly", "stars"]
+    },
+    {
+      "id": 25,
+      "title": "Cloudy Castle",
+      "blend": "cl",
+      "level": "beginner",
+      "lines": [
+        "A cloud castle climbs the sky,",
+        "Cloudy curtains float so high.",
+        "Clapping winds call out loud,",
+        "And clouds create a fluffy crowd!"
+      ],
+      "words": ["cloud", "castle", "climbs", "cloudy", "curtains", "clapping", "create", "crowd"]
+    },
+
+    {
+      "id": 26,
+      "title": "Prancing Panda",
+      "blend": "pr",
+      "level": "beginner",
+      "lines": [
+        "A panda prances in bamboo park,",
+        "It proudly plays before dark.",
+        "It presses leaves and eats them slow,",
+        "While purple skies begin to glow!"
+      ],
+      "words": ["panda", "prances", "proudly", "park", "presses", "purple", "plays", "bamboo"]
+    },
+    {
+      "id": 27,
+      "title": "Chirping Chickens",
+      "blend": "ch",
+      "level": "beginner",
+      "lines": [
+        "Chickens chase each cheerful day,",
+        "They chatter, chirp, and play.",
+        "They choose to chew and peck,",
+        "In chicken yard around the deck!"
+      ],
+      "words": ["chickens", "chase", "cheerful", "chatter", "chirp", "choose", "chew", "chicken"]
+    },
+    {
+      "id": 28,
+      "title": "Frosty Friends",
+      "blend": "fr",
+      "level": "intermediate",
+      "lines": [
+        "A frosty forest feels so cold,",
+        "Friends find fire and feel bold.",
+        "Frozen frogs and fresh green trees,",
+        "Flow with friendship in winter breeze!"
+      ],
+      "words": ["frosty", "forest", "friends", "fire", "feel", "frozen", "fresh", "flow"]
+    },
+    {
+      "id": 29,
+      "title": "Shiny Shoes",
+      "blend": "sh",
+      "level": "beginner",
+      "lines": [
+        "Shiny shoes shine on street,",
+        "They shuffle softly on little feet.",
+        "She shows shoes in shop today,",
+        "And shares her smile on the way!"
+      ],
+      "words": ["shiny", "shoes", "shine", "street", "shuffle", "softly", "she", "shop"]
+    },
+    {
+      "id": 30,
+      "title": "Tricky Turtle",
+      "blend": "tr",
+      "level": "beginner",
+      "lines": [
+        "A turtle travels through tiny trails,",
+        "It tries to trot through windy gales.",
+        "It trusts the trees and time so slow,",
+        "And triumphs in its steady flow!"
+      ],
+      "words": ["turtle", "travels", "trails", "tries", "trot", "trusts", "trees", "triumphs"]
+    },
+    {
+      "id": 31,
+      "title": "Splashing Stars",
+      "blend": "sp",
+      "level": "beginner",
+      "lines": [
+        "Spinning stars in space so high,",
+        "Splashing light across the sky.",
+        "Spiders spin their silky web,",
+        "As sparkling dreams gently ebb."
+      ],
+      "words": ["spinning", "stars", "space", "splashing", "spiders", "spin", "silky", "sparkling"]
+    },
+    {
+      "id": 32,
+      "title": "Sweet Swans",
+      "blend": "sw",
+      "level": "beginner",
+      "lines": [
+        "Swans swim in a silver lake,",
+        "Sweet winds gently wake.",
+        "Swirling water soft and slow,",
+        "As sunset colors glow."
+      ],
+      "words": ["swans", "swim", "silver", "sweet", "swirling", "slow", "sunset"]
+    },
+    {
+      "id": 33,
+      "title": "Snappy Snakes",
+      "blend": "sn",
+      "level": "beginner",
+      "lines": [
+        "Snakes slide in sandy land,",
+        "Sneaky moves across the sand.",
+        "They snap and sniff so fast,",
+        "Then sleep when danger has passed."
+      ],
+      "words": ["snakes", "slide", "sandy", "sneaky", "snap", "sniff", "sleep"]
+    },
+    {
+      "id": 34,
+      "title": "Strong Storm",
+      "blend": "st",
+      "level": "beginner",
+      "lines": [
+        "Strong storm shakes the trees,",
+        "Stormy winds bring heavy breeze.",
+        "Stars still shine in sky so bright,",
+        "Staying safe through stormy night."
+      ],
+      "words": ["strong", "storm", "shakes", "trees", "stormy", "stars", "sky", "safe"]
+    },
+    {
+      "id": 35,
+      "title": "Friendly Fruits",
+      "blend": "fr",
+      "level": "beginner",
+      "lines": [
+        "Fresh fruits fall from trees,",
+        "Friendly bees dance in breeze.",
+        "Frogs sit near flowing stream,",
+        "All nature feels like a dream."
+      ],
+      "words": ["fresh", "fruits", "friendly", "frogs", "flowing", "forest", "free"]
+    },
+
+    {
+      "id": 36,
+      "title": "Climbing Clouds",
+      "blend": "cl",
+      "level": "beginner",
+      "lines": [
+        "Clouds climb high in sky,",
+        "Clapping winds pass by.",
+        "Clear blue sky so wide,",
+        "Clouds slowly glide."
+      ],
+      "words": ["clouds", "climb", "clapping", "clear", "blue", "sky", "glide"]
+    },
+    {
+      "id": 37,
+      "title": "Brave Bridge Walk",
+      "blend": "br",
+      "level": "beginner",
+      "lines": [
+        "Bridges bring people near,",
+        "Brave steps show no fear.",
+        "Bright lights shine at night,",
+        "Bringing joy and light."
+      ],
+      "words": ["bridges", "bring", "brave", "bright", "bring", "people", "light"]
+    },
+    {
+      "id": 38,
+      "title": "Flying Frogs",
+      "blend": "fr",
+      "level": "beginner",
+      "lines": [
+        "Frogs jump in fresh pond,",
+        "Free and happy beyond.",
+        "Frosty air feels so cool,",
+        "Friends gather by school."
+      ],
+      "words": ["frogs", "fresh", "free", "frosty", "friends", "feel", "pond"]
+    },
+    {
+      "id": 39,
+      "title": "Dreamy Dragon",
+      "blend": "dr",
+      "level": "beginner",
+      "lines": [
+        "Dragon dreams at night,",
+        "Drifting stars shine bright.",
+        "Drums beat far away,",
+        "Dreams lead him astray."
+      ],
+      "words": ["dragon", "dreams", "drifting", "drums", "dream", "night", "bright"]
+    },
+    {
+      "id": 40,
+      "title": "Shining Shore",
+      "blend": "sh",
+      "level": "beginner",
+      "lines": [
+        "Shore shines in sunlight,",
+        "Shimmering waves so bright.",
+        "Shells shine on sand,",
+        "Shadows touch the land."
+      ],
+      "words": ["shore", "shines", "sunlight", "shimmering", "shells", "shine", "sand"]
+    },
+
+    {
+      "id": 41,
+      "title": "Spring Sprouts",
+      "blend": "spr",
+      "level": "intermediate",
+      "lines": [
+        "Sprouts spring from soil,",
+        "Spring brings joy and toil.",
+        "Sprinkled rain falls down,",
+        "Springtime wears a crown."
+      ],
+      "words": ["sprouts", "spring", "soil", "sprinkled", "rain", "springtime", "joy"]
+    },
+    {
+      "id": 42,
+      "title": "Strawberry Fields",
+      "blend": "str",
+      "level": "intermediate",
+      "lines": [
+        "Strawberries grow so red,",
+        "Strong winds overhead.",
+        "Strange birds pass by,",
+        "Streams flow nearby."
+      ],
+      "words": ["strawberries", "strong", "strange", "streams", "grow", "red", "winds"]
+    },
+    {
+      "id": 43,
+      "title": "Clever Crabs",
+      "blend": "cr",
+      "level": "beginner",
+      "lines": [
+        "Crabs crawl on sand,",
+        "Crisp waves touch land.",
+        "Crazy shells they wear,",
+        "Crawling everywhere."
+      ],
+      "words": ["crabs", "crawl", "crisp", "waves", "crazy", "crawl", "sand"]
+    },
+    {
+      "id": 44,
+      "title": "Flying Flames",
+      "blend": "fl",
+      "level": "beginner",
+      "lines": [
+        "Flames flicker bright,",
+        "Flying sparks at night.",
+        "Flowers bloom nearby,",
+        "Fluffy clouds pass sky."
+      ],
+      "words": ["flames", "flicker", "flying", "flowers", "fluffy", "clouds", "sky"]
+    },
+    {
+      "id": 45,
+      "title": "Happy Horses",
+      "blend": "h",
+      "level": "beginner",
+      "lines": [
+        "Horses hurry fast,",
+        "Hills and fields vast.",
+        "Happy hearts they show,",
+        "Hopping through the snow."
+      ],
+      "words": ["horses", "hurry", "happy", "hearts", "hills", "hop", "snow"]
+    },
+
+    {
+      "id": 46,
+      "title": "Magic Mushrooms",
+      "blend": "m",
+      "level": "beginner",
+      "lines": [
+        "Mushrooms grow in rain,",
+        "Magic flows again.",
+        "Moonlight touches ground,",
+        "Mystic sounds around."
+      ],
+      "words": ["mushrooms", "magic", "moonlight", "mystic", "rain", "ground", "sound"]
+    },
+    {
+      "id": 47,
+      "title": "Playful Planets",
+      "blend": "pl",
+      "level": "intermediate",
+      "lines": [
+        "Planets play in space,",
+        "Purple stars they chase.",
+        "Pluto spins so slow,",
+        "Planets glow and grow."
+      ],
+      "words": ["planets", "play", "purple", "stars", "pluto", "spin", "space"]
+    },
+    {
+      "id": 48,
+      "title": "Quiet Queen",
+      "blend": "qu",
+      "level": "beginner",
+      "lines": [
+        "Queen sits so quiet,",
+        "Quick thoughts in diet.",
+        "Quills write her tale,",
+        "Quiet winds set sail."
+      ],
+      "words": ["queen", "quiet", "quick", "quills", "write", "tale", "wind"]
+    },
+    {
+      "id": 49,
+      "title": "Talking Trees",
+      "blend": "tr",
+      "level": "beginner",
+      "lines": [
+        "Trees tell tales slow,",
+        "Trembling leaves flow.",
+        "Trunks stand so tall,",
+        "Trusting spring call."
+      ],
+      "words": ["trees", "tales", "trembling", "trunks", "trusting", "tall", "spring"]
+    },
+    {
+      "id": 50,
+      "title": "Whistling Wind",
+      "blend": "wh",
+      "level": "beginner",
+      "lines": [
+        "Wind whispers low,",
+        "White clouds go slow.",
+        "Whales swim deep sea,",
+        "Whirling waves free."
+      ],
+      "words": ["wind", "whispers", "white", "whales", "whirling", "waves", "sea"]
+    },
+    {
+      "id": 51,
+      "title": "Splashing Sea",
+      "blend": "spl",
+      "level": "beginner",
+      "lines": [
+        "Splashes in the sea so wide,",
+        "Splendid fish swim side by side.",
+        "Splitting waves with joyful sound,",
+        "Splashing water all around."
+      ],
+      "words": ["splashes", "sea", "splendid", "fish", "swim", "splitting", "splashing", "sound"]
+    },
+    {
+      "id": 52,
+      "title": "Strong Stream",
+      "blend": "str",
+      "level": "beginner",
+      "lines": [
+        "Streams stretch through rocky land,",
+        "Strong winds shape the sand.",
+        "Stripes on fish in water gleam,",
+        "Starlight touches every stream."
+      ],
+      "words": ["streams", "stretch", "strong", "winds", "stripes", "fish", "starlight", "stream"]
+    },
+    {
+      "id": 53,
+      "title": "Sweet Smile",
+      "blend": "sm",
+      "level": "beginner",
+      "lines": [
+        "Smiling faces shine so bright,",
+        "Small stars glow at night.",
+        "Smells of flowers fill the air,",
+        "Smiling children everywhere."
+      ],
+      "words": ["smiling", "small", "stars", "smells", "smile", "shine", "bright", "children"]
+    },
+    {
+      "id": 54,
+      "title": "Snail Trail Journey",
+      "blend": "sn",
+      "level": "beginner",
+      "lines": [
+        "Snails slide on rainy day,",
+        "Sneaking slowly on their way.",
+        "Sniffing flowers as they go,",
+        "Snails enjoy the gentle flow."
+      ],
+      "words": ["snails", "slide", "sneaking", "slowly", "sniffing", "flowers", "flow"]
+    },
+    {
+      "id": 55,
+      "title": "Snowy Sky",
+      "blend": "sn",
+      "level": "beginner",
+      "lines": [
+        "Snow falls soft and white,",
+        "Silent sky turns bright.",
+        "Snuggled warm inside the home,",
+        "Snowflakes gently roam."
+      ],
+      "words": ["snow", "soft", "silent", "sky", "snuggled", "home", "snowflakes"]
+    },
+
+    {
+      "id": 56,
+      "title": "Bright Bridge Path",
+      "blend": "br",
+      "level": "beginner",
+      "lines": [
+        "Bridges build between two lands,",
+        "Brave hearts lend their hands.",
+        "Bright roads shine at night,",
+        "Bringing joy and light."
+      ],
+      "words": ["bridges", "build", "brave", "bright", "roads", "shine", "light"]
+    },
+    {
+      "id": 57,
+      "title": "Flying Flags",
+      "blend": "fl",
+      "level": "beginner",
+      "lines": [
+        "Flags flutter in the wind,",
+        "Flying high they bend.",
+        "Flowers bloom below,",
+        "Flashing colors glow."
+      ],
+      "words": ["flags", "flutter", "flying", "flowers", "flash", "colors", "wind"]
+    },
+    {
+      "id": 58,
+      "title": "Green Glow Garden",
+      "blend": "gl",
+      "level": "beginner",
+      "lines": [
+        "Glowing garden grows so green,",
+        "Glittering leaves are seen.",
+        "Gliding bees go flower to flower,",
+        "Glowing every hour."
+      ],
+      "words": ["glowing", "garden", "green", "glittering", "gliding", "bees", "flower"]
+    },
+    {
+      "id": 59,
+      "title": "Happy Hills",
+      "blend": "h",
+      "level": "beginner",
+      "lines": [
+        "Hills are high and green,",
+        "Happy cows are seen.",
+        "Hopping birds fly free,",
+        "Happiness flows like sea."
+      ],
+      "words": ["hills", "happy", "high", "hopping", "birds", "free", "sea"]
+    },
+    {
+      "id": 60,
+      "title": "Magic Market",
+      "blend": "m",
+      "level": "beginner",
+      "lines": [
+        "Markets make mornings bright,",
+        "Many colors in sight.",
+        "Magic fruits so sweet,",
+        "Memories in every street."
+      ],
+      "words": ["markets", "morning", "bright", "many", "magic", "fruits", "sweet"]
+    },
+
+    {
+      "id": 61,
+      "title": "Clever Clouds",
+      "blend": "cl",
+      "level": "beginner",
+      "lines": [
+        "Clouds climb up so high,",
+        "Clapping thunder in sky.",
+        "Clear winds gently blow,",
+        "Clouds softly flow."
+      ],
+      "words": ["clouds", "climb", "clapping", "clear", "winds", "flow", "sky"]
+    },
+    {
+      "id": 62,
+      "title": "Dreamy Duck",
+      "blend": "dr",
+      "level": "beginner",
+      "lines": [
+        "Duck dreams in pond,",
+        "Drifting far beyond.",
+        "Dancing waves so slow,",
+        "Dreams begin to grow."
+      ],
+      "words": ["duck", "dreams", "drifting", "dancing", "waves", "slow", "grow"]
+    },
+    {
+      "id": 63,
+      "title": "Strong Ship Sail",
+      "blend": "sh",
+      "level": "beginner",
+      "lines": [
+        "Ships sail across sea,",
+        "Shining waves so free.",
+        "Shadows follow light,",
+        "Shimmering night."
+      ],
+      "words": ["ships", "sail", "sea", "shining", "waves", "shadows", "light"]
+    },
+    {
+      "id": 64,
+      "title": "Tiny Train Track",
+      "blend": "tr",
+      "level": "beginner",
+      "lines": [
+        "Trains travel fast and slow,",
+        "Tracks through hills they go.",
+        "Tiny wheels turn round,",
+        "Traveling with sound."
+      ],
+      "words": ["trains", "travel", "tracks", "tiny", "wheels", "turn", "sound"]
+    },
+    {
+      "id": 65,
+      "title": "Whispering Wind",
+      "blend": "wh",
+      "level": "beginner",
+      "lines": [
+        "Whispering wind so light,",
+        "Whales swim in sight.",
+        "White clouds float high,",
+        "Whirling across sky."
+      ],
+      "words": ["whispering", "wind", "whales", "white", "clouds", "float", "sky"]
+    },
+
+    {
+      "id": 66,
+      "title": "Spring Magic",
+      "blend": "spr",
+      "level": "intermediate",
+      "lines": [
+        "Spring brings colorful bloom,",
+        "Sprouting life in room.",
+        "Sprinkled rain so fine,",
+        "Springtime feels divine."
+      ],
+      "words": ["spring", "sprouts", "sprinkled", "bloom", "life", "rain", "fine"]
+    },
+    {
+      "id": 67,
+      "title": "Strange Forest",
+      "blend": "str",
+      "level": "intermediate",
+      "lines": [
+        "Strange sounds in wood,",
+        "Strong trees stand good.",
+        "Streams flow near land,",
+        "Stripes on animals grand."
+      ],
+      "words": ["strange", "sounds", "strong", "trees", "streams", "stripes", "animals"]
+    },
+    {
+      "id": 68,
+      "title": "Crisp Crabs",
+      "blend": "cr",
+      "level": "beginner",
+      "lines": [
+        "Crabs crawl on sand,",
+        "Crisp waves touch land.",
+        "Crimson shells shine bright,",
+        "Crawling left and right."
+      ],
+      "words": ["crabs", "crawl", "crisp", "waves", "crimson", "shells", "bright"]
+    },
+    {
+      "id": 69,
+      "title": "Flying Flames",
+      "blend": "fl",
+      "level": "beginner",
+      "lines": [
+        "Flames flicker at night,",
+        "Flying sparks so bright.",
+        "Fluffy clouds above,",
+        "Filled with warmth and love."
+      ],
+      "words": ["flames", "flicker", "flying", "sparks", "bright", "clouds", "love"]
+    },
+    {
+      "id": 70,
+      "title": "Final Dream Sky",
+      "blend": "dr",
+      "level": "beginner",
+      "lines": [
+        "Dreams drift in sky,",
+        "Dragon clouds pass by.",
+        "Drizzling stars so bright,",
+        "Dreaming every night."
+      ],
+      "words": ["dreams", "drift", "dragon", "clouds", "stars", "bright", "night"]
+    },
+    {
+      "id": 71,
+      "title": "Black Cat Night",
+      "blend": "bl",
+      "level": "beginner",
+      "lines": [
+        "A black cat walks at night,",
+        "Blue moon gives soft light.",
+        "Blowing wind is calm and slow,",
+        "Blanket clouds begin to glow."
+      ],
+      "words": ["black", "cat", "blue", "moon", "blowing", "wind", "blanket", "glow"]
+    },
+    {
+      "id": 72,
+      "title": "Clock Time Fun",
+      "blend": "cl",
+      "level": "beginner",
+      "lines": [
+        "The clock clicks every hour,",
+        "Clean hands wash in shower.",
+        "Climbing kids reach high,",
+        "Clouds float in the sky."
+      ],
+      "words": ["clock", "clicks", "clean", "climbing", "kids", "clouds", "sky", "hour"]
+    },
+    {
+      "id": 73,
+      "title": "Green Frog Pond",
+      "blend": "fr",
+      "level": "beginner",
+      "lines": [
+        "Fresh frogs jump in pond,",
+        "Friendly fish swim beyond.",
+        "Fruits fall near tree,",
+        "Free birds fly happily."
+      ],
+      "words": ["fresh", "frogs", "friendly", "fish", "fruits", "free", "birds", "pond"]
+    },
+    {
+      "id": 74,
+      "title": "Shining Ship",
+      "blend": "sh",
+      "level": "beginner",
+      "lines": [
+        "Shining ship sails far,",
+        "Shore sees a star.",
+        "Shadows move at night,",
+        "Shy waves dance light."
+      ],
+      "words": ["shining", "ship", "shore", "star", "shadows", "shy", "waves", "light"]
+    },
+    {
+      "id": 75,
+      "title": "Three Thinkers",
+      "blend": "th",
+      "level": "beginner",
+      "lines": [
+        "Three kids think and play,",
+        "Things happen every day.",
+        "Thunder makes loud sound,",
+        "Thoughts go round and round."
+      ],
+      "words": ["three", "kids", "think", "things", "thunder", "sound", "thoughts", "round"]
+    },
+
+    {
+      "id": 76,
+      "title": "Slow Sloth Walk",
+      "blend": "sl",
+      "level": "beginner",
+      "lines": [
+        "Sloth sleeps on tree,",
+        "Slow moves feel free.",
+        "Sliding leaves fall down,",
+        "Sleepy town around."
+      ],
+      "words": ["sloth", "sleeps", "tree", "slow", "sliding", "leaves", "sleepy", "town"]
+    },
+    {
+      "id": 77,
+      "title": "Drum Beat Day",
+      "blend": "dr",
+      "level": "beginner",
+      "lines": [
+        "Drum beats in hall,",
+        "Dry wind makes call.",
+        "Dreams of happy sound,",
+        "Dancing kids around."
+      ],
+      "words": ["drum", "beats", "dry", "wind", "dreams", "happy", "sound", "dancing"]
+    },
+    {
+      "id": 78,
+      "title": "Snowy Smile",
+      "blend": "sn",
+      "level": "beginner",
+      "lines": [
+        "Snow falls on hill,",
+        "Snail moves so still.",
+        "Snug homes stay warm,",
+        "Snow creates charm."
+      ],
+      "words": ["snow", "falls", "hill", "snail", "still", "snug", "warm", "charm"]
+    },
+    {
+      "id": 79,
+      "title": "Star Street",
+      "blend": "str",
+      "level": "beginner",
+      "lines": [
+        "Stars shine at night,",
+        "Street glows so bright.",
+        "Strong kids play far,",
+        "Straw hats like star."
+      ],
+      "words": ["stars", "shine", "street", "glows", "strong", "kids", "straw", "star"]
+    },
+    {
+      "id": 80,
+      "title": "Sweet Strawberry Day",
+      "blend": "str",
+      "level": "beginner",
+      "lines": [
+        "Strawberries grow red,",
+        "Strong sun overhead.",
+        "Stripes on bee wings,",
+        "Spring joy it brings."
+      ],
+      "words": ["strawberries", "grow", "red", "strong", "sun", "stripes", "bee", "spring"]
+    },
+
+    {
+      "id": 81,
+      "title": "Flying Flowers",
+      "blend": "fl",
+      "level": "beginner",
+      "lines": [
+        "Flowers bloom in field,",
+        "Fluffy clouds revealed.",
+        "Flying bees around,",
+        "Fresh scent is found."
+      ],
+      "words": ["flowers", "bloom", "field", "fluffy", "clouds", "flying", "bees", "fresh"]
+    },
+    {
+      "id": 82,
+      "title": "Green Glow Night",
+      "blend": "gl",
+      "level": "beginner",
+      "lines": [
+        "Glow worms in grass,",
+        "Glittering lights pass.",
+        "Gliding birds sleep,",
+        "Green trees keep."
+      ],
+      "words": ["glow", "worms", "grass", "glittering", "lights", "gliding", "birds", "green"]
+    },
+    {
+      "id": 83,
+      "title": "Happy Home",
+      "blend": "h",
+      "level": "beginner",
+      "lines": [
+        "Home is warm place,",
+        "Happy smiling face.",
+        "Hills outside green,",
+        "Hearts full seen."
+      ],
+      "words": ["home", "happy", "smiling", "face", "hills", "green", "hearts", "seen"]
+    },
+    {
+      "id": 84,
+      "title": "Magic Moon",
+      "blend": "m",
+      "level": "beginner",
+      "lines": [
+        "Moon shines at night,",
+        "Magic fills light.",
+        "Many stars glow,",
+        "Mystic winds blow."
+      ],
+      "words": ["moon", "shines", "night", "magic", "stars", "glow", "mystic", "winds"]
+    },
+    {
+      "id": 85,
+      "title": "Quiet Queen Day",
+      "blend": "qu",
+      "level": "beginner",
+      "lines": [
+        "Queen sits high,",
+        "Quiet sky nigh.",
+        "Quick birds fly,",
+        "Questions go by."
+      ],
+      "words": ["queen", "quiet", "sky", "quick", "birds", "fly", "questions", "go"]
+    },
+
+    {
+      "id": 86,
+      "title": "Train Trail",
+      "blend": "tr",
+      "level": "beginner",
+      "lines": [
+        "Train runs fast,",
+        "Tracks long vast.",
+        "Travel far away,",
+        "Trees pass day."
+      ],
+      "words": ["train", "runs", "tracks", "long", "travel", "far", "trees", "day"]
+    },
+    {
+      "id": 87,
+      "title": "Wind Whisper",
+      "blend": "wh",
+      "level": "beginner",
+      "lines": [
+        "Wind blows soft,",
+        "Whales swim aloft.",
+        "White clouds fly,",
+        "Whisper in sky."
+      ],
+      "words": ["wind", "blows", "whales", "swim", "white", "clouds", "whisper", "sky"]
+    },
+    {
+      "id": 88,
+      "title": "Bright Bridge",
+      "blend": "br",
+      "level": "beginner",
+      "lines": [
+        "Bridge across river,",
+        "Bright sun glitter.",
+        "Brave steps go,",
+        "Birds fly slow."
+      ],
+      "words": ["bridge", "river", "bright", "sun", "brave", "steps", "birds", "slow"]
+    },
+    {
+      "id": 89,
+      "title": "Clean Classroom",
+      "blend": "cl",
+      "level": "beginner",
+      "lines": [
+        "Classroom is clean,",
+        "Children are seen.",
+        "Clapping in joy,",
+        "Clouds pass sky."
+      ],
+      "words": ["classroom", "clean", "children", "seen", "clapping", "joy", "clouds", "sky"]
+    },
+    {
+      "id": 90,
+      "title": "Dream Dragon",
+      "blend": "dr",
+      "level": "beginner",
+      "lines": [
+        "Dragon sleeps low,",
+        "Dreams begin to grow.",
+        "Drift in sky blue,",
+        "Dancing dreams true."
+      ],
+      "words": ["dragon", "sleeps", "dreams", "grow", "drift", "sky", "dancing", "true"]
+    },
+
+    {
+      "id": 91,
+      "title": "Splash Pond",
+      "blend": "spl",
+      "level": "beginner",
+      "lines": [
+        "Splash in pond,",
+        "Splendid fish beyond.",
+        "Splitting water wide,",
+        "Sparkling waves glide."
+      ],
+      "words": ["splash", "pond", "splendid", "fish", "splitting", "water", "sparkling", "waves"]
+    },
+    {
+      "id": 92,
+      "title": "Strong Storm Sky",
+      "blend": "str",
+      "level": "beginner",
+      "lines": [
+        "Storm comes fast,",
+        "Strong winds blast.",
+        "Stripes in rain,",
+        "Sun comes again."
+      ],
+      "words": ["storm", "strong", "winds", "blast", "stripes", "rain", "sun", "again"]
+    },
+    {
+      "id": 93,
+      "title": "Snow Star Night",
+      "blend": "sn",
+      "level": "beginner",
+      "lines": [
+        "Snow falls white,",
+        "Stars glow night.",
+        "Snug kids sleep,",
+        "Silent dreams deep."
+      ],
+      "words": ["snow", "stars", "white", "snug", "kids", "sleep", "silent", "dreams"]
+    },
+    {
+      "id": 94,
+      "title": "Sweet Smile Day",
+      "blend": "sm",
+      "level": "beginner",
+      "lines": [
+        "Smile all day,",
+        "Small joys play.",
+        "Smell flowers near,",
+        "Smiles everywhere."
+      ],
+      "words": ["smile", "small", "joys", "play", "smell", "flowers", "near", "smiles"]
+    },
+    {
+      "id": 95,
+      "title": "Flying Flags",
+      "blend": "fl",
+      "level": "beginner",
+      "lines": [
+        "Flags fly high,",
+        "Fluffy clouds sky.",
+        "Flashing lights bright,",
+        "Freedom in sight."
+      ],
+      "words": ["flags", "fly", "fluffy", "clouds", "flashing", "lights", "freedom", "sight"]
+    },
+
+    {
+      "id": 96,
+      "title": "Green Garden Glow",
+      "blend": "gl",
+      "level": "beginner",
+      "lines": [
+        "Garden glows green,",
+        "Glitter seen between.",
+        "Gliding bees fly,",
+        "Golden sun sky."
+      ],
+      "words": ["garden", "glows", "green", "glitter", "seen", "bees", "sun", "sky"]
+    },
+    {
+      "id": 97,
+      "title": "Happy Hills Ride",
+      "blend": "h",
+      "level": "beginner",
+      "lines": [
+        "Hills are green,",
+        "Happy kids seen.",
+        "Horses run fast,",
+        "Hills long vast."
+      ],
+      "words": ["hills", "green", "happy", "kids", "horses", "run", "fast", "vast"]
+    },
+    {
+      "id": 98,
+      "title": "Magic Market Day",
+      "blend": "m",
+      "level": "beginner",
+      "lines": [
+        "Market is busy,",
+        "Many fruits dizzy.",
+        "Magic smells near,",
+        "Memories clear."
+      ],
+      "words": ["market", "busy", "many", "fruits", "magic", "smells", "memories", "clear"]
+    },
+    {
+      "id": 99,
+      "title": "Whisper Wind Night",
+      "blend": "wh",
+      "level": "beginner",
+      "lines": [
+        "Wind whispers low,",
+        "White stars glow.",
+        "Whales swim deep,",
+        "World goes sleep."
+      ],
+      "words": ["wind", "whispers", "white", "stars", "whales", "swim", "world", "sleep"]
+    },
+    {
+      "id": 100,
+      "title": "Final Star Dream",
+      "blend": "str",
+      "level": "beginner",
+      "lines": [
+        "Stars shine bright,",
+        "Strong dreams flight.",
+        "Strange night sky,",
+        "Sleep passes by."
+      ],
+      "words": ["stars", "shine", "strong", "dreams", "strange", "night", "sky", "sleep"]
     }
   ]
 }
