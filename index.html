@@ -204,21 +204,6 @@ body {
     padding: 16px 30px;
   }
 
-  .timer-btn,
-  .len-btn {
-    font-size: 18px;
-    padding: 12px 22px;
-  }
-
-  .timer-ring-container {
-    width: 140px;
-    height: 140px;
-  }
-
-  .timer-num {
-    font-size: 48px;
-  }
-
   .feedback-box {
     font-size: 22px;
   }
@@ -241,7 +226,6 @@ body {
   }
 
   .nav-btn,
-  .timer-btn,
   .len-btn {
     font-size: 16px;
     padding: 12px 18px;
@@ -310,59 +294,7 @@ body {
   }
   .len-btn.active { background: var(--violet); color: #fff; border-color: var(--violet); }
 
-  /* ===== TIMER SELECTOR ===== */
-  .timer-selector-wrap {
-    width: 100%; max-width: 700px;
-    background: #fff;
-    border-radius: 20px;
-    padding: 14px 18px;
-    box-shadow: 0 3px 12px var(--shadow);
-    margin-bottom: 16px;
-    display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
-  }
-  .timer-label-txt {
-    font-size: 14px; font-weight: 800; color: var(--dark);
-    white-space: nowrap;
-  }
-  .timer-btns { display: flex; flex-wrap: wrap; gap: 8px; }
-  .timer-btn {
-    padding: 8px 16px; border-radius: 50px;
-    background: #F3E5F5; border: 2px solid #CE93D8;
-    color: #6A1B9A; font-weight: 800; cursor: pointer; font-size: 14px;
-    transition: all .2s;
-  }
-  .timer-btn.active { background: var(--rose); color: #fff; border-color: var(--rose); transform: scale(1.05); }
-  .timer-btn.none-btn { background: #eee; border-color: #ccc; color: #555; }
-  .timer-btn.none-btn.active { background: #607D8B; color: #fff; border-color: #607D8B; }
-
   /* ===== COUNTDOWN RING ===== */
-  .timer-display-wrap {
-    width: 100%; max-width: 700px;
-    display: flex; justify-content: center; margin-bottom: 10px;
-  }
-  .timer-ring-container {
-    position: relative; width: 110px; height: 110px;
-    display: flex; align-items: center; justify-content: center;
-  }
-  .timer-ring-svg { position: absolute; top:0; left:0; transform: rotate(-90deg); }
-  .timer-ring-bg { fill: none; stroke: #EDE7F6; stroke-width: 8; }
-  .timer-ring-prog {
-    fill: none; stroke: var(--violet); stroke-width: 8;
-    stroke-linecap: round;
-    stroke-dasharray: 283;
-    stroke-dashoffset: 0;
-    transition: stroke-dashoffset 1s linear, stroke 0.3s;
-  }
-  .timer-ring-prog.warning { stroke: #FF8F00; }
-  .timer-ring-prog.danger { stroke: var(--rose); }
-  .timer-num {
-    font-size: 36px; font-weight: 900; color: var(--violet);
-    z-index: 1; transition: color 0.3s;
-    line-height: 1;
-  }
-  .timer-num.warning { color: #FF8F00; }
-  .timer-num.danger { color: var(--rose); }
-  .timer-display-wrap.hidden { display: none; }
 
   .word-card-area { width: 100%; max-width: 700px; }
 
@@ -444,10 +376,6 @@ body {
     .mic-hint { font-size: 16px; }
     .feedback-box { font-size: clamp(16px, 3vw, 22px); padding: 18px 24px; }
     .len-btn { font-size: 16px; padding: 10px 20px; }
-    .timer-btn { font-size: 16px; padding: 10px 20px; }
-    .timer-label-txt { font-size: 16px; }
-    .timer-ring-container { width: 160px; height: 160px; }
-    .timer-num { font-size: 56px; }
     .section-title { font-size: clamp(22px, 4vw, 28px); }
     .back-btn { width: 54px; height: 54px; font-size: 26px; }
   }
@@ -786,30 +714,6 @@ body {
     <div class="section-title">🔢 Word Practice</div>
   </div>
 
-  <!-- Timer selector -->
-  <div class="timer-selector-wrap">
-    <div class="timer-label-txt">⏱️ Timer:</div>
-    <div class="timer-btns">
-      <button class="timer-btn none-btn active" data-secs="0" onclick="selectTimer(this)">Off</button>
-      <button class="timer-btn" data-secs="10" onclick="selectTimer(this)">10s</button>
-      <button class="timer-btn" data-secs="15" onclick="selectTimer(this)">15s</button>
-      <button class="timer-btn" data-secs="20" onclick="selectTimer(this)">20s</button>
-      <button class="timer-btn" data-secs="30" onclick="selectTimer(this)">30s</button>
-      <button class="timer-btn" data-secs="50" onclick="selectTimer(this)">50s</button>
-    </div>
-  </div>
-
-  <!-- Countdown ring (hidden when timer=off) -->
-  <div class="timer-display-wrap hidden" id="timerDisplayWrap">
-    <div class="timer-ring-container">
-      <svg class="timer-ring-svg" width="110" height="110" id="timerRingSvg">
-        <circle class="timer-ring-bg" cx="55" cy="55" r="45"/>
-        <circle class="timer-ring-prog" id="timerRingProg" cx="55" cy="55" r="45"/>
-      </svg>
-      <div class="timer-num" id="timerNum">--</div>
-    </div>
-  </div>
-
   <div class="length-selector" id="lengthSelector"></div>
   <div class="word-card-area">
     <div id="wordDisplay" class="loading">Loading words... 📚</div>
@@ -992,12 +896,6 @@ let momTurn = 'buddy';
 let poemsData = [], storiesData = [];
 let currentPoemId = null, currentStoryId = null;
 
-// ===== TIMER STATE =====
-let selectedTimerSecs = 0;   // 0 = off
-let timerCountdown = 0;
-let timerInterval = null;
-let audioCtx = null;
-
 // ============================================================
 //  INIT
 // ============================================================
@@ -1055,118 +953,6 @@ function checkBadges() {
 }
 
 // ============================================================
-//  BEEP SOUND using Web Audio API
-// ============================================================
-function getAudioCtx() {
-  if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-  return audioCtx;
-}
-
-function playBeep(freq, duration, vol) {
-  try {
-    const ctx = getAudioCtx();
-    const osc = ctx.createOscillator();
-    const gain = ctx.createGain();
-    osc.connect(gain);
-    gain.connect(ctx.destination);
-    osc.frequency.value = freq || 880;
-    osc.type = 'sine';
-    gain.gain.setValueAtTime(vol || 0.4, ctx.currentTime);
-    gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + (duration || 0.15));
-    osc.start(ctx.currentTime);
-    osc.stop(ctx.currentTime + (duration || 0.15));
-  } catch(e) { /* audio not supported */ }
-}
-
-function playWarningBeep() {
-  // Double beep for last 5 seconds — descending tone, more urgent
-  playBeep(660, 0.12, 0.5);
-  setTimeout(() => playBeep(550, 0.18, 0.5), 130);
-}
-
-function playEndBeep() {
-  // 3-tone end chime
-  playBeep(440, 0.15, 0.6);
-  setTimeout(() => playBeep(370, 0.15, 0.6), 160);
-  setTimeout(() => playBeep(300, 0.25, 0.6), 320);
-}
-
-// ============================================================
-//  TIMER LOGIC
-// ============================================================
-function selectTimer(el) {
-  document.querySelectorAll('.timer-btn').forEach(b => b.classList.remove('active'));
-  el.classList.add('active');
-  selectedTimerSecs = parseInt(el.dataset.secs, 10);
-  stopTimer();
-  if (selectedTimerSecs === 0) {
-    document.getElementById('timerDisplayWrap').classList.add('hidden');
-  } else {
-    document.getElementById('timerDisplayWrap').classList.remove('hidden');
-    setTimerRing(selectedTimerSecs, selectedTimerSecs);
-    document.getElementById('timerNum').textContent = selectedTimerSecs;
-  }
-}
-
-function startTimer() {
-  if (selectedTimerSecs === 0) return;
-  stopTimer();
-  timerCountdown = selectedTimerSecs;
-  updateTimerUI(timerCountdown);
-  timerInterval = setInterval(() => {
-    timerCountdown--;
-    updateTimerUI(timerCountdown);
-    if (timerCountdown <= 5 && timerCountdown > 0) {
-      playWarningBeep();
-    }
-    if (timerCountdown <= 0) {
-      stopTimer();
-      playEndBeep();
-      showToast("⏰ Time's up! Try the next word!");
-      // Auto advance to next word
-      setTimeout(() => { nextWord(); startTimer(); }, 800);
-    }
-  }, 1000);
-}
-
-function stopTimer() {
-  if (timerInterval) { clearInterval(timerInterval); timerInterval = null; }
-}
-
-function updateTimerUI(secs) {
-  const total = selectedTimerSecs;
-  const numEl = document.getElementById('timerNum');
-  const ringEl = document.getElementById('timerRingProg');
-  const r = 45;
-  const circumference = 2 * Math.PI * r; // ≈ 283
-  const progress = Math.max(0, secs / total);
-  const offset = circumference * (1 - progress);
-
-  ringEl.style.strokeDashoffset = offset;
-
-  numEl.textContent = secs;
-  numEl.className = 'timer-num';
-  ringEl.className = 'timer-ring-prog';
-
-  if (secs <= 5 && secs > 0) {
-    numEl.classList.add('danger');
-    ringEl.classList.add('danger');
-  } else if (secs <= Math.floor(total * 0.4)) {
-    numEl.classList.add('warning');
-    ringEl.classList.add('warning');
-  }
-}
-
-function setTimerRing(secs, total) {
-  const r = 45;
-  const circumference = 2 * Math.PI * r;
-  const offset = circumference * (1 - secs / total);
-  document.getElementById('timerRingProg').style.strokeDashoffset = offset;
-  document.getElementById('timerRingProg').style.strokeDasharray = circumference;
-  document.getElementById('timerNum').textContent = secs;
-}
-
-// ============================================================
 //  WELCOME
 // ============================================================
 function selectAge(el) {
@@ -1205,9 +991,6 @@ function updateHeader() {
 //  SCREEN NAVIGATION
 // ============================================================
 function showScreen(id) {
-  // Stop timer when leaving word practice
-  if (id !== 'wordPractice') stopTimer();
-
   document.querySelectorAll('.screen').forEach(s=>{
     s.classList.remove('active');
   });
@@ -1256,17 +1039,11 @@ async function initWordPractice() {
     b.onclick=()=>loadWordLength(i);
     sel.appendChild(b);
   }
-  // Reset timer ring visuals
-  if (selectedTimerSecs > 0) {
-    setTimerRing(selectedTimerSecs, selectedTimerSecs);
-    document.getElementById('timerDisplayWrap').classList.remove('hidden');
-  }
   await loadWordLength(currentWordLength);
 }
 
 async function loadWordLength(n) {
   currentWordLength = n;
-  stopTimer();
   document.querySelectorAll('.len-btn').forEach((b,i)=>{
     b.classList.toggle('active', i+1===n);
   });
@@ -1306,9 +1083,6 @@ function renderWord() {
   `;
   document.getElementById('micArea').classList.remove('hidden');
   hideFeedback();
-
-  // Start timer for new word
-  if (selectedTimerSecs > 0) startTimer();
 }
 
 function speakCurrentWord() {
@@ -1318,13 +1092,11 @@ function speakCurrentWord() {
 }
 
 function prevWord() {
-  stopTimer();
   if(currentWordIndex>0) { currentWordIndex--; renderWord(); }
   else showToast('You are at the first word!');
 }
 
 function nextWord() {
-  stopTimer();
   if(currentWordIndex < currentWordList.length-1) {
     currentWordIndex++;
     renderWord();
@@ -1371,7 +1143,6 @@ function initRecognition() {
 function toggleMic() {
   if(isListening) { stopListening(); return; }
   const target = currentWordList[currentWordIndex]?.word || '';
-  stopTimer(); // pause timer while speaking
   startListening('micBtn','micHint','feedbackBox', target, ()=>{
     appData.aloud++;
     appData.stars+=2;
@@ -1402,7 +1173,6 @@ function startListening(btnId, hintId, fbId, target, onSuccess, isWordPractice) 
     const msg = "😅 Couldn't hear you. Try again!";
     showFeedback(fbId, msg, 'retry');
     speak(msg); // voice feedback for error too
-    if (isWordPractice && selectedTimerSecs > 0) startTimer(); // resume timer
   };
   recognition.onend = () => {
     isListening = false;
@@ -1431,18 +1201,11 @@ function evaluateSpeech(said, target, fbId, onSuccess, isWordPractice) {
     confetti();
     if(onSuccess) onSuccess();
     showModal('⭐', displayMsg.replace('⭐ ',''), 'You spoke it so well!');
-    if (isWordPractice && selectedTimerSecs > 0) {
-      // Restart timer for next attempt
-      setTimeout(() => startTimer(), 1200);
-    }
   } else {
     const retryMsg = retryMsgs[Math.floor(Math.random()*retryMsgs.length)];
     showFeedback(fbId, '😊 ' + retryMsg, 'retry');
     speak(retryMsg); // 🔊 Voice feedback on retry
     speak(target); // Also speak the target word again
-    if (isWordPractice && selectedTimerSecs > 0) {
-      setTimeout(() => startTimer(), 1000);
-    }
   }
 }
 
