@@ -140,14 +140,123 @@
     gap: 14px; padding: 0 4px;
   }
 
-  @media(min-width: 600px) {
-    .menu-grid { grid-template-columns: repeat(3, 1fr); }
+  /* ===== TABLET: 3-col, bigger text ===== */
+@media (min-width: 600px) and (max-width: 1023px) {
+
+  .menu-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .menu-card {
+    padding: 36px 20px;
+  }
+
+  .menu-card .card-icon {
+    font-size: 68px;
+  }
+
+  .menu-card .card-label {
+    font-size: 24px;
+  }
+
+  .menu-card .card-desc {
+    font-size: 17px;
+  }
+
+  .word-display {
+    padding: 42px 30px;
+  }
+
+  .word-text {
+    font-size: 72px;
+    letter-spacing: 3px;
+  }
+
+  .word-emoji {
+    font-size: 96px;
+  }
+
+  .word-tamil {
+    font-size: 30px;
+  }
+
+  .word-example {
+    font-size: 22px;
+  }
+
+  .blend-part {
+    font-size: 34px;
+  }
+
+  .mic-btn {
+    width: 120px;
+    height: 120px;
+    font-size: 52px;
+  }
+
+  .mic-hint {
+    font-size: 18px;
+  }
+
+  .nav-btn {
+    font-size: 20px;
+    padding: 16px 30px;
+  }
+
+  .timer-btn,
+  .len-btn {
+    font-size: 18px;
+    padding: 12px 22px;
+  }
+
+  .timer-ring-container {
+    width: 140px;
+    height: 140px;
+  }
+
+  .timer-num {
+    font-size: 48px;
+  }
+
+  .feedback-box {
+    font-size: 22px;
+  }
+}
+
+  /* ===== Mobile ===== */
+@media (max-width: 599px) {
+  .word-text {
+    font-size: clamp(36px, 9vw, 56px);
+  }
+
+  .word-emoji {
+    font-size: clamp(60px, 14vw, 90px);
+  }
+
+  .mic-btn {
+    width: 90px;
+    height: 90px;
+    font-size: 40px;
+  }
+
+  .nav-btn,
+  .timer-btn,
+  .len-btn {
+    font-size: 16px;
+    padding: 12px 18px;
+  }
+}
+
+  /* ===== DESKTOP ===== */
+  @media(min-width: 1024px) {
+    .menu-grid { grid-template-columns: repeat(4, 1fr); }
   }
 
   .menu-card {
     background: var(--card);
     border-radius: var(--radius);
-    padding: 22px 14px;
+    padding: 28px 18px;
     text-align: center;
     cursor: pointer;
     box-shadow: 0 4px 16px var(--shadow);
@@ -158,9 +267,9 @@
   }
   .menu-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,0.18); }
   .menu-card:active { transform: scale(0.97); }
-  .menu-card .card-icon { font-size: clamp(36px,8vw,52px); display: block; margin-bottom: 10px; }
-  .menu-card .card-label { font-size: clamp(12px,3vw,15px); font-weight: 800; color: var(--dark); }
-  .menu-card .card-desc { font-size: 11px; color: #888; margin-top: 4px; }
+  .menu-card .card-icon { font-size: clamp(44px,8vw,64px); display: block; margin-bottom: 10px; }
+  .menu-card .card-label { font-size: clamp(16px,3vw,20px); font-weight: 800; color: var(--dark); }
+  .menu-card .card-desc { font-size: 14px; color: #888; margin-top: 6px; }
 
   .menu-card.c1 { border-color: #FF5C8D; }
   .menu-card.c2 { border-color: #9C6FE4; }
@@ -191,7 +300,7 @@
 
   .length-selector {
     width: 100%; max-width: 700px;
-    display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px;
+    display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px;
   }
   .len-btn {
     padding: 8px 16px; border-radius: 50px;
@@ -200,6 +309,60 @@
     transition: all .2s;
   }
   .len-btn.active { background: var(--violet); color: #fff; border-color: var(--violet); }
+
+  /* ===== TIMER SELECTOR ===== */
+  .timer-selector-wrap {
+    width: 100%; max-width: 700px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 14px 18px;
+    box-shadow: 0 3px 12px var(--shadow);
+    margin-bottom: 16px;
+    display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  }
+  .timer-label-txt {
+    font-size: 14px; font-weight: 800; color: var(--dark);
+    white-space: nowrap;
+  }
+  .timer-btns { display: flex; flex-wrap: wrap; gap: 8px; }
+  .timer-btn {
+    padding: 8px 16px; border-radius: 50px;
+    background: #F3E5F5; border: 2px solid #CE93D8;
+    color: #6A1B9A; font-weight: 800; cursor: pointer; font-size: 14px;
+    transition: all .2s;
+  }
+  .timer-btn.active { background: var(--rose); color: #fff; border-color: var(--rose); transform: scale(1.05); }
+  .timer-btn.none-btn { background: #eee; border-color: #ccc; color: #555; }
+  .timer-btn.none-btn.active { background: #607D8B; color: #fff; border-color: #607D8B; }
+
+  /* ===== COUNTDOWN RING ===== */
+  .timer-display-wrap {
+    width: 100%; max-width: 700px;
+    display: flex; justify-content: center; margin-bottom: 10px;
+  }
+  .timer-ring-container {
+    position: relative; width: 110px; height: 110px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .timer-ring-svg { position: absolute; top:0; left:0; transform: rotate(-90deg); }
+  .timer-ring-bg { fill: none; stroke: #EDE7F6; stroke-width: 8; }
+  .timer-ring-prog {
+    fill: none; stroke: var(--violet); stroke-width: 8;
+    stroke-linecap: round;
+    stroke-dasharray: 283;
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset 1s linear, stroke 0.3s;
+  }
+  .timer-ring-prog.warning { stroke: #FF8F00; }
+  .timer-ring-prog.danger { stroke: var(--rose); }
+  .timer-num {
+    font-size: 36px; font-weight: 900; color: var(--violet);
+    z-index: 1; transition: color 0.3s;
+    line-height: 1;
+  }
+  .timer-num.warning { color: #FF8F00; }
+  .timer-num.danger { color: var(--rose); }
+  .timer-display-wrap.hidden { display: none; }
 
   .word-card-area { width: 100%; max-width: 700px; }
 
@@ -269,6 +432,26 @@
   .feedback-box.retry { background: #FFF3E0; color: #E65100; border: 2px solid #FFCC80; }
   .feedback-box.hidden { display: none; }
 
+  /* ===== TABLET WORD PRACTICE ===== */
+  @media(min-width: 600px) and (max-width: 1023px) {
+    .word-display { padding: 40px 32px; }
+    .word-emoji { font-size: clamp(72px, 12vw, 100px); }
+    .word-text { font-size: clamp(48px, 9vw, 72px); letter-spacing: 8px; }
+    .word-tamil { font-size: clamp(20px, 4vw, 28px); }
+    .word-example { font-size: clamp(16px, 3vw, 22px); }
+    .nav-btn { padding: 16px 30px; font-size: 18px; }
+    .mic-btn { width: 100px; height: 100px; font-size: 44px; }
+    .mic-hint { font-size: 16px; }
+    .feedback-box { font-size: clamp(16px, 3vw, 22px); padding: 18px 24px; }
+    .len-btn { font-size: 16px; padding: 10px 20px; }
+    .timer-btn { font-size: 16px; padding: 10px 20px; }
+    .timer-label-txt { font-size: 16px; }
+    .timer-ring-container { width: 160px; height: 160px; }
+    .timer-num { font-size: 56px; }
+    .section-title { font-size: clamp(22px, 4vw, 28px); }
+    .back-btn { width: 54px; height: 54px; font-size: 26px; }
+  }
+
   /* ========== LETTERS ========== */
   #letterPractice { background: linear-gradient(135deg, #FFF9C4, #FCE4EC); }
   .letter-grid {
@@ -276,6 +459,10 @@
     display: grid; grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)); gap: 10px;
   }
   @media(min-width: 500px) { .letter-grid { grid-template-columns: repeat(auto-fill, minmax(72px,1fr)); } }
+  @media(min-width: 600px) and (max-width: 1023px) {
+    .letter-grid { grid-template-columns: repeat(auto-fill, minmax(90px,1fr)); gap: 14px; }
+    .letter-cell { font-size: clamp(28px,6vw,40px); border-radius: 20px; }
+  }
 
   .letter-cell {
     aspect-ratio: 1; border-radius: 16px;
@@ -496,72 +683,6 @@
   .mt16 { margin-top: 16px; }
   .center { text-align: center; }
   .loading { text-align:center; padding: 40px; color: #aaa; font-size: 16px; }
-  
-    /* 👉 Paste the mobile CSS here */
-
-@media (max-width: 768px) {
-
-  body {
-    margin: 0;
-    padding: 0;
-    background: #f0f7ff;
-    font-family: Arial, sans-serif;
-  }
-
-  .word-card-area {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-  }
-
-  .word-card {
-    width: 95%;
-    max-width: 400px;
-    background: #ffffff;
-    border-radius: 25px;
-    padding: 30px 20px;
-    text-align: center;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
-  }
-
-  .word-title {
-    font-size: 52px;
-    font-weight: 900;
-    color: #0d47a1;
-    letter-spacing: 2px;
-  }
-
-  .tamil-line {
-    font-size: 30px;
-    margin-top: 12px;
-    color: #2e7d32;
-    font-weight: 700;
-  }
-
-  .example {
-    margin-top: 18px;
-    font-size: 28px;
-    font-weight: 800;
-    color: #d32f2f;
-    background: #fff3e0;
-    padding: 15px;
-    border-radius: 15px;
-    line-height: 1.4;
-  }
-
-  .mic-btn {
-    width: 95px;
-    height: 95px;
-    font-size: 42px;
-    border-radius: 50%;
-    margin-top: 20px;
-  }
-
-  .section-title {
-    font-size: 28px;
-  }
-}
 </style>
 </head>
 <body>
@@ -660,10 +781,35 @@
 
 <!-- ============ WORD PRACTICE ============ -->
 <div id="wordPractice" class="screen">
-  <div class="section-header" style="max-width:700px;width:100%">
+  <div class="section-header" style="max-width:900px;width:100%">
     <button class="back-btn" onclick="showScreen('home')">←</button>
     <div class="section-title">🔢 Word Practice</div>
   </div>
+
+  <!-- Timer selector -->
+  <div class="timer-selector-wrap">
+    <div class="timer-label-txt">⏱️ Timer:</div>
+    <div class="timer-btns">
+      <button class="timer-btn none-btn active" data-secs="0" onclick="selectTimer(this)">Off</button>
+      <button class="timer-btn" data-secs="10" onclick="selectTimer(this)">10s</button>
+      <button class="timer-btn" data-secs="15" onclick="selectTimer(this)">15s</button>
+      <button class="timer-btn" data-secs="20" onclick="selectTimer(this)">20s</button>
+      <button class="timer-btn" data-secs="30" onclick="selectTimer(this)">30s</button>
+      <button class="timer-btn" data-secs="50" onclick="selectTimer(this)">50s</button>
+    </div>
+  </div>
+
+  <!-- Countdown ring (hidden when timer=off) -->
+  <div class="timer-display-wrap hidden" id="timerDisplayWrap">
+    <div class="timer-ring-container">
+      <svg class="timer-ring-svg" width="110" height="110" id="timerRingSvg">
+        <circle class="timer-ring-bg" cx="55" cy="55" r="45"/>
+        <circle class="timer-ring-prog" id="timerRingProg" cx="55" cy="55" r="45"/>
+      </svg>
+      <div class="timer-num" id="timerNum">--</div>
+    </div>
+  </div>
+
   <div class="length-selector" id="lengthSelector"></div>
   <div class="word-card-area">
     <div id="wordDisplay" class="loading">Loading words... 📚</div>
@@ -842,9 +988,15 @@ let recognition = null;
 let isListening = false;
 let currentAloudIdx = 0;
 let currentMomIdx = 0;
-let momTurn = 'buddy'; // 'buddy' | 'child'
+let momTurn = 'buddy';
 let poemsData = [], storiesData = [];
 let currentPoemId = null, currentStoryId = null;
+
+// ===== TIMER STATE =====
+let selectedTimerSecs = 0;   // 0 = off
+let timerCountdown = 0;
+let timerInterval = null;
+let audioCtx = null;
 
 // ============================================================
 //  INIT
@@ -853,14 +1005,8 @@ window.onload = () => {
   generateStars();
   loadData();
   checkStreak();
-
-  // Always show the welcome page
   showScreen('welcome');
-
-  // Pre-fill saved values if available
-  if (appData.name) {
-    document.getElementById('childName').value = appData.name;
-  }
+  if (appData.name) document.getElementById('childName').value = appData.name;
 };
 
 function generateStars() {
@@ -909,6 +1055,118 @@ function checkBadges() {
 }
 
 // ============================================================
+//  BEEP SOUND using Web Audio API
+// ============================================================
+function getAudioCtx() {
+  if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  return audioCtx;
+}
+
+function playBeep(freq, duration, vol) {
+  try {
+    const ctx = getAudioCtx();
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+    osc.frequency.value = freq || 880;
+    osc.type = 'sine';
+    gain.gain.setValueAtTime(vol || 0.4, ctx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + (duration || 0.15));
+    osc.start(ctx.currentTime);
+    osc.stop(ctx.currentTime + (duration || 0.15));
+  } catch(e) { /* audio not supported */ }
+}
+
+function playWarningBeep() {
+  // Double beep for last 5 seconds — descending tone, more urgent
+  playBeep(660, 0.12, 0.5);
+  setTimeout(() => playBeep(550, 0.18, 0.5), 130);
+}
+
+function playEndBeep() {
+  // 3-tone end chime
+  playBeep(440, 0.15, 0.6);
+  setTimeout(() => playBeep(370, 0.15, 0.6), 160);
+  setTimeout(() => playBeep(300, 0.25, 0.6), 320);
+}
+
+// ============================================================
+//  TIMER LOGIC
+// ============================================================
+function selectTimer(el) {
+  document.querySelectorAll('.timer-btn').forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
+  selectedTimerSecs = parseInt(el.dataset.secs, 10);
+  stopTimer();
+  if (selectedTimerSecs === 0) {
+    document.getElementById('timerDisplayWrap').classList.add('hidden');
+  } else {
+    document.getElementById('timerDisplayWrap').classList.remove('hidden');
+    setTimerRing(selectedTimerSecs, selectedTimerSecs);
+    document.getElementById('timerNum').textContent = selectedTimerSecs;
+  }
+}
+
+function startTimer() {
+  if (selectedTimerSecs === 0) return;
+  stopTimer();
+  timerCountdown = selectedTimerSecs;
+  updateTimerUI(timerCountdown);
+  timerInterval = setInterval(() => {
+    timerCountdown--;
+    updateTimerUI(timerCountdown);
+    if (timerCountdown <= 5 && timerCountdown > 0) {
+      playWarningBeep();
+    }
+    if (timerCountdown <= 0) {
+      stopTimer();
+      playEndBeep();
+      showToast("⏰ Time's up! Try the next word!");
+      // Auto advance to next word
+      setTimeout(() => { nextWord(); startTimer(); }, 800);
+    }
+  }, 1000);
+}
+
+function stopTimer() {
+  if (timerInterval) { clearInterval(timerInterval); timerInterval = null; }
+}
+
+function updateTimerUI(secs) {
+  const total = selectedTimerSecs;
+  const numEl = document.getElementById('timerNum');
+  const ringEl = document.getElementById('timerRingProg');
+  const r = 45;
+  const circumference = 2 * Math.PI * r; // ≈ 283
+  const progress = Math.max(0, secs / total);
+  const offset = circumference * (1 - progress);
+
+  ringEl.style.strokeDashoffset = offset;
+
+  numEl.textContent = secs;
+  numEl.className = 'timer-num';
+  ringEl.className = 'timer-ring-prog';
+
+  if (secs <= 5 && secs > 0) {
+    numEl.classList.add('danger');
+    ringEl.classList.add('danger');
+  } else if (secs <= Math.floor(total * 0.4)) {
+    numEl.classList.add('warning');
+    ringEl.classList.add('warning');
+  }
+}
+
+function setTimerRing(secs, total) {
+  const r = 45;
+  const circumference = 2 * Math.PI * r;
+  const offset = circumference * (1 - secs / total);
+  document.getElementById('timerRingProg').style.strokeDashoffset = offset;
+  document.getElementById('timerRingProg').style.strokeDasharray = circumference;
+  document.getElementById('timerNum').textContent = secs;
+}
+
+// ============================================================
 //  WELCOME
 // ============================================================
 function selectAge(el) {
@@ -947,6 +1205,9 @@ function updateHeader() {
 //  SCREEN NAVIGATION
 // ============================================================
 function showScreen(id) {
+  // Stop timer when leaving word practice
+  if (id !== 'wordPractice') stopTimer();
+
   document.querySelectorAll('.screen').forEach(s=>{
     s.classList.remove('active');
   });
@@ -986,7 +1247,6 @@ function speakLetter(l) {
 //  WORD PRACTICE
 // ============================================================
 async function initWordPractice() {
-  // Build length buttons
   const sel = document.getElementById('lengthSelector');
   sel.innerHTML = '';
   for(let i=1;i<=10;i++){
@@ -996,11 +1256,17 @@ async function initWordPractice() {
     b.onclick=()=>loadWordLength(i);
     sel.appendChild(b);
   }
+  // Reset timer ring visuals
+  if (selectedTimerSecs > 0) {
+    setTimerRing(selectedTimerSecs, selectedTimerSecs);
+    document.getElementById('timerDisplayWrap').classList.remove('hidden');
+  }
   await loadWordLength(currentWordLength);
 }
 
 async function loadWordLength(n) {
   currentWordLength = n;
+  stopTimer();
   document.querySelectorAll('.len-btn').forEach((b,i)=>{
     b.classList.toggle('active', i+1===n);
   });
@@ -1040,6 +1306,9 @@ function renderWord() {
   `;
   document.getElementById('micArea').classList.remove('hidden');
   hideFeedback();
+
+  // Start timer for new word
+  if (selectedTimerSecs > 0) startTimer();
 }
 
 function speakCurrentWord() {
@@ -1049,11 +1318,13 @@ function speakCurrentWord() {
 }
 
 function prevWord() {
+  stopTimer();
   if(currentWordIndex>0) { currentWordIndex--; renderWord(); }
   else showToast('You are at the first word!');
 }
 
 function nextWord() {
+  stopTimer();
   if(currentWordIndex < currentWordList.length-1) {
     currentWordIndex++;
     renderWord();
@@ -1075,7 +1346,6 @@ function speak(text, onEnd) {
   const utt = new SpeechSynthesisUtterance(text);
   utt.rate = 0.85;
   utt.pitch = 1.1;
-  // Prefer female voice
   const voices = synth.getVoices();
   const female = voices.find(v=>/female|samantha|zira|karen|victoria|moira|fiona/i.test(v.name))
     || voices.find(v=>v.lang==='en-US' && !v.name.toLowerCase().includes('male'))
@@ -1101,14 +1371,15 @@ function initRecognition() {
 function toggleMic() {
   if(isListening) { stopListening(); return; }
   const target = currentWordList[currentWordIndex]?.word || '';
+  stopTimer(); // pause timer while speaking
   startListening('micBtn','micHint','feedbackBox', target, ()=>{
     appData.aloud++;
     appData.stars+=2;
     saveData();
-  });
+  }, /* isWordPractice */ true);
 }
 
-function startListening(btnId, hintId, fbId, target, onSuccess) {
+function startListening(btnId, hintId, fbId, target, onSuccess, isWordPractice) {
   if(isListening) return;
   recognition = initRecognition();
   if(!recognition) return;
@@ -1122,13 +1393,16 @@ function startListening(btnId, hintId, fbId, target, onSuccess) {
     isListening = false;
     document.getElementById(btnId).classList.remove('listening');
     if(hintId) document.getElementById(hintId).textContent = 'Tap to repeat the word';
-    evaluateSpeech(said, target, fbId, onSuccess);
+    evaluateSpeech(said, target, fbId, onSuccess, isWordPractice);
   };
   recognition.onerror = () => {
     isListening = false;
     document.getElementById(btnId).classList.remove('listening');
     if(hintId) document.getElementById(hintId).textContent = 'Tap to try again';
-    showFeedback(fbId, "😅 Couldn't hear you. Try again!", 'retry');
+    const msg = "😅 Couldn't hear you. Try again!";
+    showFeedback(fbId, msg, 'retry');
+    speak(msg); // voice feedback for error too
+    if (isWordPractice && selectedTimerSecs > 0) startTimer(); // resume timer
   };
   recognition.onend = () => {
     isListening = false;
@@ -1143,20 +1417,32 @@ function stopListening() {
   document.querySelectorAll('.mic-btn').forEach(b=>b.classList.remove('listening'));
 }
 
-function evaluateSpeech(said, target, fbId, onSuccess) {
+function evaluateSpeech(said, target, fbId, onSuccess, isWordPractice) {
   const clean = s => s.toLowerCase().replace(/[^a-z]/g,'');
   const match = clean(said).includes(clean(target)) || clean(target).includes(clean(said));
-  const msgs = ['⭐ Excellent!','🎉 Fantastic reading!','👏 Wonderful!','🌟 Superstar!','✨ Perfect!'];
-  const retryMsgs = ["😊 Good try! Let's read it once more.","🙂 Almost! Try again.","💪 Keep going — you can do it!"];
+  const msgs = ['Excellent! Well done!','Fantastic reading! Keep it up!','Wonderful! You got it!','Superstar! Amazing job!','Perfect! You are brilliant!'];
+  const retryMsgs = ["Good try! Let us read it once more.","Almost! Try again, you can do it.","Keep going — you are doing great!"];
+
   if(match) {
     const msg = msgs[Math.floor(Math.random()*msgs.length)];
-    showFeedback(fbId, msg, 'success');
+    const displayMsg = '⭐ ' + msg.split('!')[0] + '!';
+    showFeedback(fbId, displayMsg, 'success');
+    speak(msg); // 🔊 Voice feedback on success
     confetti();
     if(onSuccess) onSuccess();
-    showModal('⭐',msg,'You spoke it so well!');
+    showModal('⭐', displayMsg.replace('⭐ ',''), 'You spoke it so well!');
+    if (isWordPractice && selectedTimerSecs > 0) {
+      // Restart timer for next attempt
+      setTimeout(() => startTimer(), 1200);
+    }
   } else {
-    showFeedback(fbId, retryMsgs[Math.floor(Math.random()*retryMsgs.length)], 'retry');
-    speak(target);
+    const retryMsg = retryMsgs[Math.floor(Math.random()*retryMsgs.length)];
+    showFeedback(fbId, '😊 ' + retryMsg, 'retry');
+    speak(retryMsg); // 🔊 Voice feedback on retry
+    speak(target); // Also speak the target word again
+    if (isWordPractice && selectedTimerSecs > 0) {
+      setTimeout(() => startTimer(), 1000);
+    }
   }
 }
 
